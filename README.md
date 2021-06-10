@@ -1,5 +1,5 @@
 # Homoheliotropism
-_Homoheliotropism_, noun, protologism:
+**_Homoheliotropism_**, noun, protologism:
 from the genus Homo – to which all human beings belong; and Heliotropism: 1. the directional growth of a plant in response to sunlight. 2. The tendency of an animal to move towards light.
 
 
