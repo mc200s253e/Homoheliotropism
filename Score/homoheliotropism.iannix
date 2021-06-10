@@ -1,0 +1,641 @@
+/*
+*Iannix score 'Homoheliotropisme’
+*
+*Written by:
+*Lambert Segura, April 2021
+*BA(Hons) Interaction Design
+*The Glasgow School of Art
+*
+*CC-BY-SA
+*
+*https://www.lambertsegura.com
+*
+*/
+
+
+
+
+/*
+ *	This method is called first.
+ *	It is the good section for asking user for script global variables (parameters).
+ *	
+ * 	This section is never overwritten by IanniX when saving.
+ */
+function askUserForParameters() {
+	//title("The title of the parameter box");
+	//ask("Group name of the parameter (only for display purposes)", "Parameter label", "myGlobalVar", "theDefaultValue");
+}
+
+
+/*
+ *	This method stores all the operations made through IanniX scripts.
+ *	You can add some commands here to make your own scripts!
+ *	Scripts are written in Javascript but even with a limited knowledge of Javascript, many types of useful scripts can be created.
+ *	
+ *	Beyond the standard javascript commands, the run() function is used to send commands to IanniX.
+ *	Commands must be provided to run() as a single string.
+ *	For example, run("zoom 100"); sets the display zoom to 100%.
+ *	
+ *	To combine numeric parameters with text commands to produce a string, use the concatenation operator.
+ *	In the following example center_x and center_y are in numeric variables and must be concatenated to the command string.
+ *	Example: run("setPos current " + center_x + " " + center_y + " 0");
+ *	
+ *	To learn IanniX commands, perform an manipulation in IanniX graphical user interface, and see the Helper window.
+ *	You'll see the syntax of the command-equivalent action.
+ *	
+ *	And finally, remember that most of commands must target an object.
+ *	Global syntax is always run("<command name> <target> <arguments>");
+ *	Targets can be an ID (number) or a Group ID (string name of group) (please see "Info" tab in Inspector panel).
+ *	Special targets are "current" (last used ID), "all" (all the objects) and "lastCurve" (last used curve).
+ *	
+ * 	This section is never overwritten by IanniX when saving.
+ */
+function makeWithScript() {
+	//Clears the score
+	run("clear");
+	//Resets rotation
+	run("rotate 0 0 0");
+	//Resets score viewport center
+	run("center 0 0");
+	//Resets score zoom
+	run("zoom 100");
+}
+
+
+/*
+ *	When an incoming message is received, this method is called.
+ *		- <protocol> tells information about the nature of message ("osc", "midi", "direct…)
+ *		- <host> and <port> gives the origin of message, specially for IP protocols (for OpenSoundControl, UDP or TCP, it is the IP and port of the application that sends the message)
+ *		- <destination> is the supposed destination of message (for OpenSoundControl it is the path, for MIDI it is Control Change or Note on/off…)
+ *		- <values> are an array of arguments contained in the message
+ *	
+ * 	This section is never overwritten by IanniX when saving.
+ */
+function onIncomingMessage(protocol, host, port, destination, values) {
+	//Logs a message in the console (open "Config" tab from Inspector panel and see "Message log")
+	console("Received on '" + protocol + "' (" + host + ":" + port + ") to '" + destination + "', " + values.length + " values : ");
+	
+	//Browses all the arguments and displays them in log window
+	for(var valueIndex = 0 ; valueIndex < values.length ; valueIndex++)
+		console("- arg " + valueIndex + " = " + values[valueIndex]);
+}
+
+/*
+ *	This method stores all the operations made through the graphical user interface.
+ *	You are not supposed to modify this section, but it can be useful to remove some stuff that you added accidentaly.
+ *	
+ * 	Be very careful! This section is automaticaly overwritten when saving a score.
+ */
+function madeThroughGUI() {
+//GUI: NEVER EVER REMOVE THIS LINE
+	run("rotate 0 0 0");
+	run("zoom 53.4432");
+	run("speed 1");
+	run("center -1.4013e-45 1.4013e-45");
+
+
+	run("add curve 1");
+	run("setpos current -6.59971 -0.400165 0");
+	var points1 = [
+		{x: 6.56825, y: 4.72807, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.42671, y: 4.52718, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.38592, y: 4.46733, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.34033, y: 4.40322, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.4507, y: 4.32629, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.46989, y: 4.31346, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.53227, y: 4.27072, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.59465, y: 4.22798, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.59945, y: 4.22371, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.55146, y: 4.15531, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.52507, y: 4.12111, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.51068, y: 4.09975, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.49388, y: 4.07838, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.46509, y: 4.04846, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.40512, y: 3.99289, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.37633, y: 3.97151, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.23717, y: 3.86467, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.06443, y: 3.7407, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 6.00205, y: 3.69797, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.98526, y: 3.68515, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.96847, y: 3.67231, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.95166, y: 3.65522, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.93488, y: 3.63812, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.92048, y: 3.62103, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.90849, y: 3.60393, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.89649, y: 3.58256, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.88929, y: 3.56974, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.84611, y: 3.49279, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.76694, y: 3.38595, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.76453, y: 3.38166, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.76214, y: 3.3774, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.76214, y: 3.37312, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.74295, y: 3.34748, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.67576, y: 3.29619, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.66616, y: 3.28764, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.65178, y: 3.27481, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.60139, y: 3.25344, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.53902, y: 3.22352, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.47663, y: 3.19787, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.46464, y: 3.19359, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.45505, y: 3.18933, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.43345, y: 3.18506, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.39746, y: 3.1765, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.35428, y: 3.1594, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.33269, y: 3.15514, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.32309, y: 3.15086, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.3111, y: 3.14658, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.2967, y: 3.13804, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.2799, y: 3.12521, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.27031, y: 3.12094, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.20313, y: 3.05683, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.16475, y: 3.01836, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.12396, y: 2.97988, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 5.07117, y: 3.0098, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.69691, y: 3.24062, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.59373, y: 3.30474, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.50497, y: 3.1594, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.397, y: 2.98416, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.33224, y: 3.0269, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.26506, y: 3.06537, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.07073, y: 3.18933, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 4.01794, y: 3.21925, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.99635, y: 3.24062, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.98436, y: 3.25771, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.96036, y: 3.28764, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.91958, y: 3.27908, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.90278, y: 3.27481, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.8644, y: 3.26199, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.84281, y: 3.25771, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.82121, y: 3.24916, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.79962, y: 3.23635, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.77563, y: 3.22352, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.75404, y: 3.21498, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.73244, y: 3.20215, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.70845, y: 3.19359, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.68926, y: 3.18506, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.67006, y: 3.18078, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.64607, y: 3.17223, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.62688, y: 3.17223, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.60289, y: 3.16796, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.58369, y: 3.16367, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5693, y: 3.16367, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5597, y: 3.16367, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5573, y: 3.15514, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5621, y: 3.10384, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5573, y: 3.09957, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.55251, y: 3.09529, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.46853, y: 2.95424, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.46134, y: 2.9457, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.45174, y: 2.93287, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.43974, y: 2.92432, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.45654, y: 2.91149, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5693, y: 2.84311, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.66767, y: 2.77899, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.69166, y: 2.76189, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.73244, y: 2.73625, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.73964, y: 2.71488, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.74684, y: 2.69779, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.75404, y: 2.68496, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.76363, y: 2.67214, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.77323, y: 2.65932, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.78282, y: 2.64649, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.64607, y: 2.73197, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.61728, y: 2.68924, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.60049, y: 2.65932, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.5597, y: 2.5952, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.48532, y: 2.46697, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.47093, y: 2.47979, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.40376, y: 2.51826, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37977, y: 2.4627, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37497, y: 2.44988, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37017, y: 2.42851, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.35817, y: 2.37293, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.32458, y: 2.22762, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.35817, y: 2.37293, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37017, y: 2.42851, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37497, y: 2.44988, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.37977, y: 2.4627, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.40376, y: 2.51826, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.36537, y: 2.54391, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.2718, y: 2.59947, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.25981, y: 2.57383, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.24301, y: 2.49689, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.17104, y: 2.17633, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.17104, y: 2.15067, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.15904, y: 2.09938, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.09187, y: 1.78736, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 3.07027, y: 1.68905, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.96711, y: 1.70188, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.95991, y: 1.67195, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.91673, y: 1.65485, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.89034, y: 1.64631, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.86155, y: 1.63349, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.83995, y: 1.62494, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.82556, y: 1.61639, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.81356, y: 1.61212, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.80636, y: 1.60356, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.80157, y: 1.5993, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.79437, y: 1.59074, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.78957, y: 1.57364, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.78477, y: 1.56083, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.77518, y: 1.55654, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.76558, y: 1.54801, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.75358, y: 1.54373, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.74159, y: 1.54373, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.72959, y: 1.53945, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.7176, y: 1.53945, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.7032, y: 1.53945, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.6912, y: 1.53945, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.67921, y: 1.47962, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.54965, y: 1.50954, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.54725, y: 1.49244, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.54486, y: 1.47533, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.52326, y: 1.37704, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.52086, y: 1.37275, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.51846, y: 1.36849, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.50167, y: 1.35139, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.49687, y: 1.35994, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.48728, y: 1.37704, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.44169, y: 1.44542, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.4129, y: 1.43688, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.4033, y: 1.4326, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.39131, y: 1.4326, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.34333, y: 1.43688, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.27615, y: 1.44114, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.24256, y: 1.44114, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.20656, y: 1.44542, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.15859, y: 1.4497, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 2.05303, y: 1.46679, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.89948, y: 1.48816, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.59479, y: 1.52663, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.51081, y: 1.53945, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.46763, y: 1.54373, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.33807, y: 1.56083, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.28529, y: 1.56938, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2613, y: 1.56938, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2733, y: 1.70614, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2733, y: 1.71897, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2709, y: 1.7318, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2661, y: 1.73606, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2637, y: 1.74462, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.2565, y: 1.7489, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.24691, y: 1.75744, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.23731, y: 1.76172, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.22531, y: 1.76599, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.21092, y: 1.76599, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.12935, y: 1.76599, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.11975, y: 1.77026, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.11255, y: 1.77026, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.07656, y: 1.78736, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.04058, y: 1.80445, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.02618, y: 1.80874, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.01419, y: 1.81301, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 1.00699, y: 1.81729, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.94461, y: 1.83011, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.93262, y: 1.83438, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.93022, y: 1.82583, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.91582, y: 1.82583, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.84385, y: 1.88566, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.79346, y: 1.8985, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.78387, y: 1.8985, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.77906, y: 1.89422, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.76707, y: 1.88994, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.74788, y: 1.87284, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.74308, y: 1.86857, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.73109, y: 1.86003, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.72149, y: 1.85574, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.71189, y: 1.85147, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.6999, y: 1.84721, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.6831, y: 1.84721, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.66631, y: 1.84721, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.65671, y: 1.84293, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.65191, y: 1.83865, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.64951, y: 1.83011, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.64951, y: 1.82155, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.64951, y: 1.81729, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.65911, y: 1.77882, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.66151, y: 1.77454, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.66151, y: 1.77026, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.65911, y: 1.76599, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.63992, y: 1.7489, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.64951, y: 1.73606, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.66151, y: 1.71897, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.61593, y: 1.68905, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.60633, y: 1.68051, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.58953, y: 1.67195, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.58234, y: 1.66341, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.57754, y: 1.65485, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.57274, y: 1.64204, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.57034, y: 1.63349, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56794, y: 1.63349, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56554, y: 1.61639, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56314, y: 1.59502, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56314, y: 1.57364, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56314, y: 1.55228, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56314, y: 1.53518, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56554, y: 1.51809, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56314, y: 1.50954, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.56074, y: 1.50099, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.55595, y: 1.48816, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.54875, y: 1.47962, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.54155, y: 1.46679, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.52476, y: 1.44542, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.50796, y: 1.41978, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.46238, y: 1.35565, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.41919, y: 1.29154, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.42159, y: 1.283, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.42399, y: 1.27018, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.42399, y: 1.24881, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.42399, y: 1.23598, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.42399, y: 1.22744, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.41919, y: 1.19752, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4144, y: 1.17187, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.412, y: 1.15904, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4072, y: 1.14194, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4024, y: 1.12913, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4024, y: 1.11203, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4, y: 1.10348, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4024, y: 1.09492, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.4048, y: 1.08211, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.48157, y: 0.78718, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.58474, y: 0.39395, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+		{x: 0.84625, y: 0.41531, z: 0, c1x: 0, c1y: 0, c1z: 0, c2x: 0, c2y: 0, c2z: 0},
+	];
+	for(var i = 0 ; i < points1.length ; i++)
+		run("setpointat current " + i + " " + points1[i].x + " " + points1[i].y + " " + points1[i].z + " " + points1[i].c1x + " " + points1[i].c1y + " " + points1[i].c1z + " " + points1[i].c2x + " " + points1[i].c2y + " " + points1[i].c2z);
+	run("setposx current -6.599714279174805");
+	run("setposy current -0.40016475319862366");
+	run("setcoloractive current 0 0 0 255");
+	run("add cursor 2");
+	run("setcurve current lastCurve");
+	run("setpos current -0.227631 3.98092 0");
+	run("setoffset current 0 0 end");
+	run("settimepercent current 0.03495824920355286");
+	run("setdepth current 0.5");
+	run("setspeed current 0.0346084");
+	run("settime current 0.4355454760412968");
+	run("setwidth current 0.05");
+
+
+	run("add trigger 35");
+	run("setpos current -6.01477 -0.00620065 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger decide sheets odds ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 8");
+	run("setpos current -2.00558 2.9042 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger closes drape froze ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 34");
+	run("setpos current -6.18052 0.891441 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger layers fuzzy forget ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 7");
+	run("setpos current -1.47563 2.57971 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger gaps march bells ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 33");
+	run("setpos current -5.93815 1.31901 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger blunt juices caged ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 6");
+	run("setpos current -1.26647 2.75514 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger freed wake minus ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 32");
+	run("setpos current -5.95973 1.34866 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger pitch matter broad ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 5");
+	run("setpos current -0.664851 3.23773 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger device remain hopes ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 4");
+	run("setpos current -0.000778553 3.8234 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger strut scare goes ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 3");
+	run("setpos current -0.257104 4.00266 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger lines news stacks ,");
+	run("setlabel current Quiet lbl");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 31");
+	run("setpos current -5.65491 1.43006 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger bride people light ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 30");
+	run("setpos current -5.4796 1.37025 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger cried fast amused ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 29");
+	run("setpos current -5.32626 1.30596 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger swaps fields truth ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 28");
+	run("setpos current -5.33829 1.16936 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger hands island lovely ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 27");
+	run("setpos current -4.15791 1.04529 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger burn dwell inner ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 26");
+	run("setpos current -4.09794 0.951212 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger giving arrow lease ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 25");
+	run("setpos current -4.04983 1.10955 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger lines gazed dust ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 24");
+	run("setpos current -3.80499 1.19062 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger aspect corner hurls ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 23");
+	run("setpos current -3.52949 1.28898 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger reveal almost enter ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 22");
+	run("setpos current -3.32747 2.19947 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger spring feared curve ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 21");
+	run("setpos current -3.27491 1.82759 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger bonds dates palms ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 20");
+	run("setpos current -3.11427 2.06683 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger minus human vibrates ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 19");
+	run("setpos current -2.95329 2.33195 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger sound area little ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 18");
+	run("setpos current -2.81687 2.24627 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger even unity blaze ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 17");
+	run("setpos current -2.86712 2.33623 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger life brave heave ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 16");
+	run("setpos current -3.15991 2.52423 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger issued frame damage ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 15");
+	run("setpos current -3.03764 2.70368 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger gather darker exchanges ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 14");
+	run("setpos current -3.03962 2.76365 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger rising count bright ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 13");
+	run("setpos current -2.63907 2.88771 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger ritual forms leans ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 10");
+	run("setpos current -2.20226 2.58401 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger defeat remit often ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 37");
+	run("setpos current -0.0347239 4.32279 0");
+	run("setsize current 0.03");
+	run("settriggeroff current 0.3");
+	run("setmessage current 1, osc://ip_out:port_out/trigger quiet sand suffer ,");
+
+	run("add trigger 9");
+	run("setpos current -2.16255 2.64829 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger divisions body alone ,");
+	run("settriggeroff current 0.3");
+
+	run("add trigger 36");
+	run("setpos current -5.75635 0.0149553 0");
+	run("setsize current 0.03");
+	run("setmessage current 1, osc://ip_out:port_out/trigger choice shaped space ,");
+	run("settriggeroff current 0.3");
+
+
+
+//GUI: NEVER EVER REMOVE THIS LINE
+}
+
+
+/*
+ *	This method stores all the operations made by other softwares through one of the IanniX interfaces.
+ *	You are not supposed to modify this section, but it can be useful to remove some stuff that you or a third party software added accidentaly.
+ *	
+ * 	Be very careful! This section is automaticaly overwritten when saving a score.
+ */
+function madeThroughInterfaces() {
+//INTERFACES: NEVER EVER REMOVE THIS LINE
+	run("speed 1");
+
+
+//INTERFACES: NEVER EVER REMOVE THIS LINE
+}
+
+
+/*
+ *	This method is called last.
+ *	It allows you to modify your hand-drawn score (made through graphical user interface).
+ *	
+ * 	This section is never overwritten by IanniX when saving.
+ */
+function alterateWithScript() {
+	
+}
+
+
+/*
+ *	//APP VERSION: NEVER EVER REMOVE THIS LINE
+ *	Made with IanniX 0.9.20
+ *	//APP VERSION: NEVER EVER REMOVE THIS LINE
+ */
+
+
+
+/*
+    This file is part of IanniX, a graphical real-time open-source sequencer for digital art
+    Copyright (C) 2010-2015 — IanniX Association
+
+    Project Manager: Thierry Coduys (http://www.le-hub.org)
+    Development:     Guillaume Jacquemin (https://www.buzzinglight.com)
+
+    This file was written by Guillaume Jacquemin.
+
+    IanniX is a free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+

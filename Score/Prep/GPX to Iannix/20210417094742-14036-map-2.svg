@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="513" onload="if(self.makeDraggable){makeDraggable(evt)}" width="700" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g id="mundialis_osm:background" opacity="0.5">
+		<image height="513" id="background_map_1" opacity="1" style="mix-blend-mode:normal" width="700" x="0" xlink:href="https://ows.terrestris.de/osm/service?service=WMS&amp;version=1.3.0&amp;request=GetMap&amp;format=image/jpeg&amp;exception=inimage&amp;crs=EPSG:4326&amp;styles=&amp;layers=OSM-WMS&amp;bbox=55.8705042,-4.3121372,55.8825158,-4.2829605&amp;width=700&amp;height=513" y="0" />
+	</g>
+	<g id="trk1:Itin_raire_de_381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni___8_Burgh_Hall_St__Partick__Glasgow_G11_5LN__Royaume_Uni" opacity="1">
+		<polyline fill="none" id="trk1:p211" points=" 512.396,214.818 507.118,211.826 469.691,188.745 459.374,182.333 450.498,196.866 439.701,214.391 433.224,210.116 426.506,206.269 407.073,193.874 401.794,190.882 399.635,188.745 398.436,187.035 396.036,184.043 391.958,184.898 390.278,185.325 386.440,186.608 384.281,187.035 382.121,187.890 379.962,189.172 377.563,190.455 375.404,191.309 373.244,192.592 370.845,193.447 368.926,194.301 367.006,194.729 364.607,195.584 362.688,195.584 360.289,196.011 358.369,196.439 356.930,196.439 355.970,196.439 355.730,197.293 356.210,202.423 355.730,202.850 355.251,203.277 346.853,217.383 346.134,218.237 345.174,219.520 343.974,220.375 345.654,221.657 356.930,228.496 366.767,234.907 369.166,236.617 373.244,239.181 373.964,241.319 374.684,243.028 375.404,244.311 376.363,245.593 377.323,246.875 378.283,248.157 364.607,239.609 361.728,243.883 360.049,246.875 355.970,253.287 348.533,266.109 347.093,264.827 340.376,260.980 337.977,266.537 337.497,267.819 337.017,269.956 335.817,275.513 332.458,290.045 335.817,275.513 337.017,269.956 337.497,267.819 337.977,266.537 340.376,260.980 336.537,258.416 327.180,252.859 325.981,255.424 324.301,263.117 317.104,295.174 317.104,297.739 315.904,302.868 309.187,334.070 307.027,343.901 296.711,342.619 295.991,345.611 291.673,347.321 289.034,348.176 286.155,349.458 283.995,350.313 282.556,351.168 281.356,351.595 280.636,352.450 280.157,352.877 279.437,353.732 278.957,355.442 278.477,356.724 277.518,357.152 276.558,358.006 275.358,358.434 274.159,358.434 272.959,358.861 271.760,358.861 270.320,358.861 269.120,358.861 267.921,364.845 254.965,361.853 254.725,363.563 254.486,365.273 252.326,375.103 252.086,375.531 251.846,375.958 250.167,377.668 249.687,376.813 248.728,375.103 244.169,368.265 241.290,369.119 240.330,369.547 239.131,369.547 234.333,369.119 227.615,368.692 224.256,368.692 220.657,368.265 215.859,367.837 205.303,366.128 189.948,363.990 159.479,360.144 151.081,358.861 146.763,358.434 133.807,356.724 128.529,355.869 126.130,355.869 127.330,342.192 127.330,340.909 127.090,339.627 126.610,339.200 126.370,338.345 125.650,337.917 124.691,337.062 123.731,336.635 122.531,336.208 121.092,336.208 112.935,336.208 111.975,335.780 111.255,335.780 107.657,334.070 104.058,332.361 102.618,331.933 101.419,331.506 100.699,331.078 94.461,329.796 93.262,329.369 93.022,330.224 91.582,330.224 84.385,324.240 79.346,322.957 78.387,322.957 77.907,323.385 76.707,323.812 74.788,325.522 74.308,325.949 73.109,326.804 72.149,327.232 71.189,327.659 69.990,328.086 68.310,328.086 66.631,328.086 65.671,328.514 65.191,328.941 64.951,329.796 64.951,330.651 64.951,331.078 65.911,334.925 66.151,335.353 66.151,335.780 65.911,336.208 63.992,337.917 64.951,339.200 66.151,340.909 61.593,343.901 60.633,344.756 58.953,345.611 58.234,346.466 57.754,347.321 57.274,348.603 57.034,349.458 56.794,349.458 56.554,351.168 56.314,353.305 56.314,355.442 56.314,357.579 56.314,359.289 56.554,360.998 56.314,361.853 56.074,362.708 55.595,363.990 54.875,364.845 54.155,366.128 52.476,368.265 50.796,370.829 46.238,377.241 41.919,383.652 42.159,384.507 42.399,385.789 42.399,387.926 42.399,389.209 42.399,390.063 41.919,393.055 41.440,395.620 41.200,396.902 40.720,398.612 40.240,399.894 40.240,401.604 40.000,402.459 40.240,403.314 40.480,404.596 48.157,434.089 58.474,473.412 84.625,471.275" stroke="#cc0000" stroke-linejoin="round" stroke-width="2" />
+	</g>
+	<g class="draggable" id="trk1:label" opacity="1" x="510.396" y="212.818">
+		<text fill="#cc0000" font-family="Verdana" font-size="11" id="trk1:name" opacity="1" text-anchor="middle" x="510.396" y="212.818">Itin&#233;raire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni &#224; 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+	</g>
+	<g id="trk2:Itin_raire_de_25_Mingarry_Street__Kelvinside__Glasgow___381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni" opacity="1">
+		<polyline fill="none" id="trk2:p53" points=" 656.826,40.000 642.671,60.089 638.592,66.073 634.034,72.485 645.070,80.178 646.989,81.461 653.227,85.735 659.465,90.009 659.945,90.436 655.146,97.275 652.507,100.695 651.068,102.832 649.388,104.969 646.509,107.961 640.512,113.518 637.633,115.655 623.717,126.340 606.443,138.736 600.206,143.010 598.526,144.292 596.847,145.575 595.167,147.284 593.488,148.994 592.048,150.704 590.849,152.414 589.649,154.551 588.929,155.833 584.611,163.527 576.694,174.212 576.454,174.640 576.214,175.067 576.214,175.495 574.295,178.059 567.577,183.188 566.617,184.043 565.178,185.325 560.139,187.463 553.902,190.455 547.664,193.019 546.464,193.447 545.505,193.874 543.345,194.301 539.747,195.156 535.428,196.866 533.269,197.293 532.309,197.721 531.110,198.148 529.670,199.003 527.991,200.285 527.031,200.713 520.313,207.124 516.475,210.971 512.396,214.818" stroke="#b5cc00" stroke-linejoin="round" stroke-width="2" />
+	</g>
+	<g class="draggable" id="trk2:label" opacity="1" x="654.826" y="38">
+		<text fill="#b5cc00" font-family="Verdana" font-size="11" id="trk2:name" opacity="1" text-anchor="middle" x="654.826" y="38">Itin&#233;raire de 25 Mingarry Street, Kelvinside, Glasgow &#224; 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+	</g>
+	<g id="trk3:Itin_raire_de_381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni___28_Athole_Gardens__Glasgow_G12_9BB__Royaume_Uni" opacity="1">
+		<polyline fill="none" id="trk3:p51" points=" 512.396,214.818 507.118,211.826 469.691,188.745 459.374,182.333 450.498,196.866 442.820,209.261 439.701,214.391 433.224,210.116 426.506,206.269 407.073,193.874 401.794,190.882 399.635,188.745 398.436,187.035 396.036,184.043 391.958,184.898 390.278,185.325 386.440,186.608 384.281,187.035 382.121,187.890 379.962,189.172 377.563,190.455 375.404,191.309 373.244,192.592 370.845,193.447 368.926,194.301 367.006,194.729 364.607,195.584 362.688,195.584 360.289,196.011 358.369,196.439 356.930,196.439 355.970,196.439 355.730,197.293 356.210,202.423 355.730,202.850 355.251,203.277 346.853,217.383 346.134,218.237 345.174,219.520 343.974,220.375 345.654,221.657 356.930,228.496 366.767,234.907 369.166,236.617 373.244,239.181 373.964,241.319 374.684,243.028 375.404,244.311 376.363,245.593 377.323,246.875 378.283,248.157" stroke="#00cc2e" stroke-linejoin="round" stroke-width="2" />
+	</g>
+	<g class="draggable" id="trk3:label" opacity="1" x="510.396" y="212.818">
+		<text fill="#00cc2e" font-family="Verdana" font-size="11" id="trk3:name" opacity="1" text-anchor="middle" x="510.396" y="212.818">Itin&#233;raire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni &#224; 28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+	</g>
+	<g id="trk4:Itin_raire_de_22_Athole_Gardens__Glasgow_G12_9BB__Royaume_Uni___45_Partickhill_Rd__Glasgow_G11_5BY__Royaume_Uni" opacity="1">
+		<polyline fill="none" id="trk4:p73" points=" 364.607,239.609 361.728,243.883 360.049,246.875 355.970,253.287 348.533,266.109 347.093,264.827 340.376,260.980 337.977,266.537 337.497,267.819 337.017,269.956 335.817,275.513 332.458,290.045 335.817,275.513 337.017,269.956 337.497,267.819 337.977,266.537 340.376,260.980 336.537,258.416 327.180,252.859 325.981,255.424 324.301,263.117 317.104,295.174 317.104,297.739 315.904,302.868 309.187,334.070 307.027,343.901 296.711,342.619 295.991,345.611 291.673,347.321 289.034,348.176 286.155,349.458 283.995,350.313 282.556,351.168 281.356,351.595 280.636,352.450 280.157,352.877 279.437,353.732 278.957,355.442 278.477,356.724 277.518,357.152 276.558,358.006 275.358,358.434 274.159,358.434 272.959,358.861 271.760,358.861 270.320,358.861 269.120,358.861 267.921,364.845 254.965,361.853 254.725,363.563 254.486,365.273 252.326,375.103 252.086,375.531 251.846,375.958 250.167,377.668 249.687,376.813 248.728,375.103 244.169,368.265 241.290,369.119 239.851,369.547 234.333,369.119 227.615,368.692 224.256,368.692 220.657,368.265 215.859,367.837 205.303,366.128 189.948,363.990 159.479,360.144 151.081,358.861 146.763,358.434 133.807,356.724 128.529,355.869 126.130,355.869" stroke="#0087cc" stroke-linejoin="round" stroke-width="2" />
+	</g>
+	<g class="draggable" id="trk4:label" opacity="1" x="362.607" y="237.609">
+		<text fill="#0087cc" font-family="Verdana" font-size="11" id="trk4:name" opacity="1" text-anchor="middle" x="362.607" y="237.609">Itin&#233;raire de 22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni &#224; 45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+	</g>
+	<g id="trk5:Itin_raire_de_Partick_Hill_Bowling___Community_Club__Partickhill_Road__Glasgow___8_Burgh_Hall_St__Partick__Glasgow_G11_5LN__Royaume_Uni" opacity="1">
+		<polyline fill="none" id="trk5:p85" points=" 127.330,341.764 127.330,340.054 126.370,338.345 125.650,337.917 124.691,337.062 123.731,336.635 122.531,336.208 121.092,336.208 112.935,336.208 111.975,335.780 111.255,335.780 107.657,334.070 104.058,332.361 102.618,331.933 101.419,331.506 100.699,331.078 95.421,329.796 94.461,329.796 93.262,329.369 93.022,330.224 91.582,330.224 84.385,324.240 79.346,322.957 78.387,322.957 77.907,323.385 76.707,323.812 74.788,325.522 74.308,325.949 73.109,326.804 72.149,327.232 71.189,327.659 69.990,328.086 68.310,328.086 66.151,328.086 65.191,328.941 64.951,329.796 64.951,330.651 64.951,331.078 65.911,334.925 66.151,335.353 66.151,335.780 65.911,336.208 63.992,337.917 64.951,339.200 66.151,340.909 61.593,343.901 60.633,344.756 58.953,345.611 58.234,346.466 57.754,347.321 57.274,348.603 57.034,349.458 56.794,349.458 56.554,351.168 56.314,353.305 56.314,355.442 56.314,357.579 56.314,359.289 56.554,360.998 56.314,361.853 56.074,362.708 55.595,363.990 54.875,364.845 54.155,366.128 52.476,368.265 50.796,370.829 46.238,377.241 41.919,383.652 42.159,384.507 42.399,385.789 42.399,387.926 42.399,389.209 42.399,390.063 41.919,393.055 41.440,395.620 41.200,396.902 40.720,398.612 40.240,399.894 40.240,401.604 40.000,402.459 40.240,403.314 40.480,404.596 48.157,434.089 58.474,473.412 84.625,471.275" stroke="#5c00cc" stroke-linejoin="round" stroke-width="2" />
+	</g>
+	<g class="draggable" id="trk5:label" opacity="1" x="129.33" y="339.764">
+		<text fill="#5c00cc" font-family="Verdana" font-size="11" id="trk5:name" opacity="1" text-anchor="middle" x="129.33" y="339.764">Itin&#233;raire de Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow &#224; 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+	</g>
+	<g id="Waypoints">
+		<circle cx="512.3145" cy="214.8693" fill="#000000" fill-opacity="0" id="wpt1:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt1:label" x="517.3145" y="214.8693">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt1:name" opacity="1" text-anchor="start" x="517.3145" y="214.8693">381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		</g>
+		<circle cx="84.5333" cy="471.4543" fill="#000000" fill-opacity="0" id="wpt2:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt2:label" x="89.5333" y="471.4543">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt2:name" opacity="1" text-anchor="start" x="89.5333" y="471.4543">8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+		<circle cx="656.9243" cy="40.0641" fill="#000000" fill-opacity="0" id="wpt3:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt3:label" x="661.9243" y="40.0641">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt3:name" opacity="1" text-anchor="start" x="661.9243" y="40.0641">25 Mingarry Street, Kelvinside, Glasgow</text>
+		</g>
+		<circle cx="634.1298" cy="72.2965" fill="#000000" fill-opacity="0" id="wpt4:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt4:label" x="639.1298" y="72.2965">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt4:name" opacity="1" text-anchor="start" x="639.1298" y="72.2965">17 Clouston St, Kelvinside, Glasgow G20 8QR, Royaume-Uni</text>
+		</g>
+		<circle cx="660.0000" cy="90.4921" fill="#000000" fill-opacity="0" id="wpt5:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt5:label" x="665" y="90.4921">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt5:name" opacity="1" text-anchor="start" x="665" y="90.4921">Fergus Drive, Glasgow G20 6AX, Royaume-Uni</text>
+		</g>
+		<circle cx="589.6156" cy="154.4481" fill="#000000" fill-opacity="0" id="wpt6:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt6:label" x="594.6156" y="154.4481">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt6:name" opacity="1" text-anchor="start" x="594.6156" y="154.4481">Botanic Gardens, Glasgow G12 8DH, Royaume-Uni</text>
+		</g>
+		<circle cx="533.1632" cy="197.5029" fill="#000000" fill-opacity="0" id="wpt7:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt7:label" x="538.1632" y="197.5029">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt7:name" opacity="1" text-anchor="start" x="538.1632" y="197.5029">West Lodge, 730D Great Western Rd, Glasgow G12 0UE, Royaume-Uni</text>
+		</g>
+		<circle cx="512.3145" cy="214.8693" fill="#000000" fill-opacity="0" id="wpt8:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt8:label" x="517.3145" y="214.8693">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt8:name" opacity="1" text-anchor="start" x="517.3145" y="214.8693">381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		</g>
+		<circle cx="459.4824" cy="182.1668" fill="#000000" fill-opacity="0" id="wpt9:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt9:label" x="464.4824" y="182.1668">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt9:name" opacity="1" text-anchor="start" x="464.4824" y="182.1668">2a Kew Ln, Glasgow G12 9AG, Royaume-Uni</text>
+		</g>
+		<circle cx="442.7434" cy="209.2615" fill="#000000" fill-opacity="0" id="wpt10:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt10:label" x="447.7434" y="209.2615">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt10:name" opacity="1" text-anchor="start" x="447.7434" y="209.2615">Kelvinside Hillhead Parish Church, Saltoun Street, Glasgow</text>
+		</g>
+		<circle cx="439.6629" cy="214.2239" fill="#000000" fill-opacity="0" id="wpt11:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt11:label" x="444.6629" y="214.2239">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt11:name" opacity="1" text-anchor="start" x="444.6629" y="214.2239">27 Saltoun St, Glasgow G12 9AJ, Royaume-Uni</text>
+		</g>
+		<circle cx="395.9932" cy="183.8979" fill="#000000" fill-opacity="0" id="wpt12:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt12:label" x="400.9932" y="183.8979">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt12:name" opacity="1" text-anchor="start" x="400.9932" y="183.8979">34 Huntly Gardens, Glasgow G12 9AX, Royaume-Uni</text>
+		</g>
+		<circle cx="355.9415" cy="196.5369" fill="#000000" fill-opacity="0" id="wpt13:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt13:label" x="360.9415" y="196.5369">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt13:name" opacity="1" text-anchor="start" x="360.9415" y="196.5369">1 Dundonald Rd, Glasgow G12 9LJ, Royaume-Uni</text>
+		</g>
+		<circle cx="356.1671" cy="202.4568" fill="#000000" fill-opacity="0" id="wpt14:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt14:label" x="361.1671" y="202.4568">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt14:name" opacity="1" text-anchor="start" x="361.1671" y="202.4568">10 Marchmont Terrace, Glasgow G12 9LS, Royaume-Uni</text>
+		</g>
+		<circle cx="343.8761" cy="220.4643" fill="#000000" fill-opacity="0" id="wpt15:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt15:label" x="348.8761" y="220.4643">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt15:name" opacity="1" text-anchor="start" x="348.8761" y="220.4643">7 Bowmont Terrace, Glasgow G12 9LP, Royaume-Uni</text>
+		</g>
+		<circle cx="373.3499" cy="239.1472" fill="#000000" fill-opacity="0" id="wpt16:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt16:label" x="378.3499" y="239.1472">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt16:name" opacity="1" text-anchor="start" x="378.3499" y="239.1472">24 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle cx="378.3354" cy="248.2472" fill="#000000" fill-opacity="0" id="wpt17:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt17:label" x="383.3354" y="248.2472">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt17:name" opacity="1" text-anchor="start" x="383.3354" y="248.2472">28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle cx="364.5018" cy="239.6259" fill="#000000" fill-opacity="0" id="wpt18:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt18:label" x="369.5018" y="239.6259">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt18:name" opacity="1" text-anchor="start" x="369.5018" y="239.6259">22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle cx="348.4513" cy="265.9555" fill="#000000" fill-opacity="0" id="wpt19:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt19:label" x="353.4513" y="265.9555">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt19:name" opacity="1" text-anchor="start" x="353.4513" y="265.9555">33 Victoria Cres Rd, Glasgow G12 9DD, Royaume-Uni</text>
+		</g>
+		<circle cx="332.5089" cy="289.9641" fill="#000000" fill-opacity="0" id="wpt20:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt20:label" x="337.5089" y="289.9641">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt20:name" opacity="1" text-anchor="start" x="337.5089" y="289.9641">50 Dowanside Rd, Glasgow G12 9DW, Royaume-Uni</text>
+		</g>
+		<circle cx="327.1611" cy="252.6924" fill="#000000" fill-opacity="0" id="wpt21:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt21:label" x="332.1611" y="252.6924">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt21:name" opacity="1" text-anchor="start" x="332.1611" y="252.6924">48 Victoria Cres Rd, Glasgow G12 9DE, Royaume-Uni</text>
+		</g>
+		<circle cx="307.0681" cy="343.8158" fill="#000000" fill-opacity="0" id="wpt22:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt22:label" x="312.0681" y="343.8158">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt22:name" opacity="1" text-anchor="start" x="312.0681" y="343.8158">78 Dowanhill St, Glasgow G12 9EG, Royaume-Uni</text>
+		</g>
+		<circle cx="279.4681" cy="353.7620" fill="#000000" fill-opacity="0" id="wpt23:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt23:label" x="284.4681" y="353.762">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt23:name" opacity="1" text-anchor="start" x="284.4681" y="353.762">Dowanhill Park, Havelock Street, Glasgow</text>
+		</g>
+		<circle cx="254.9126" cy="362.0498" fill="#000000" fill-opacity="0" id="wpt24:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt24:label" x="259.9126" y="362.0498">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt24:name" opacity="1" text-anchor="start" x="259.9126" y="362.0498">93-95 Hyndland St, Glasgow G11 5PU, Royaume-Uni</text>
+		</g>
+		<circle cx="250.1167" cy="377.6467" fill="#000000" fill-opacity="0" id="wpt25:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt25:label" x="255.1167" y="377.6467">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt25:name" opacity="1" text-anchor="start" x="255.1167" y="377.6467">91 Hyndland St, Glasgow G11 5PU, Royaume-Uni</text>
+		</g>
+		<circle cx="244.1979" cy="368.0638" fill="#000000" fill-opacity="0" id="wpt26:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt26:label" x="249.1979" y="368.0638">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt26:name" opacity="1" text-anchor="start" x="249.1979" y="368.0638">1 Partickhill Rd, Glasgow G11 5BL, Royaume-Uni</text>
+		</g>
+		<circle cx="126.2093" cy="355.7795" fill="#000000" fill-opacity="0" id="wpt27:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt27:label" x="131.2093" y="355.7795">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt27:name" opacity="1" text-anchor="start" x="131.2093" y="355.7795">45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+		</g>
+		<circle cx="127.3033" cy="341.6872" fill="#000000" fill-opacity="0" id="wpt28:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt28:label" x="132.3033" y="341.6872">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt28:name" opacity="1" text-anchor="start" x="132.3033" y="341.6872">Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow</text>
+		</g>
+		<circle cx="112.0206" cy="335.9725" fill="#000000" fill-opacity="0" id="wpt29:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt29:label" x="117.0206" y="335.9725">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt29:name" opacity="1" text-anchor="start" x="117.0206" y="335.9725">Partickhill Court, Glasgow</text>
+		</g>
+		<circle cx="95.3896" cy="329.9244" fill="#000000" fill-opacity="0" id="wpt30:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt30:label" x="100.3896" y="329.9244">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt30:name" opacity="1" text-anchor="start" x="100.3896" y="329.9244">16 Partickhill Ct, Glasgow G11 5BA, Royaume-Uni</text>
+		</g>
+		<circle cx="63.9509" cy="337.7420" fill="#000000" fill-opacity="0" id="wpt31:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt31:label" x="68.9509" y="337.742">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt31:name" opacity="1" text-anchor="start" x="68.9509" y="337.742">60 Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</text>
+		</g>
+		<circle cx="66.2685" cy="340.9862" fill="#000000" fill-opacity="0" id="wpt32:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt32:label" x="71.2685" y="340.9862">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt32:name" opacity="1" text-anchor="start" x="71.2685" y="340.9862">63A Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</text>
+		</g>
+		<circle cx="41.8474" cy="383.6179" fill="#000000" fill-opacity="0" id="wpt33:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt33:label" x="46.8474" y="383.6179">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt33:name" opacity="1" text-anchor="start" x="46.8474" y="383.6179">72 Peel St, Glasgow G11 5LR, Royaume-Uni</text>
+		</g>
+		<circle cx="58.4496" cy="473.3264" fill="#000000" fill-opacity="0" id="wpt34:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt34:label" x="63.4496" y="473.3264">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt34:name" opacity="1" text-anchor="start" x="63.4496" y="473.3264">13 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+		<circle cx="84.5333" cy="471.4543" fill="#000000" fill-opacity="0" id="wpt35:marker" r="3" stroke="#000000" stroke-opacity="1" stroke-width="1.0" />
+		<g class="draggable" id="wpt35:label" x="89.5333" y="471.4543">
+			<text fill="#000000" font-family="Verdana" font-size="11" id="wpt35:name" opacity="1" text-anchor="start" x="89.5333" y="471.4543">8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+	</g>
+	<g class="draggable" id="map:legend" x="6" y="499.411911998909">
+		<text fill="#5c00cc" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:trktrk5_label" text-anchor="start" x="6" y="499.411911998909">Itin&#233;raire de Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow &#224; 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		<text fill="#0087cc" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:trktrk4_label" text-anchor="start" x="6" y="488.411911998909">Itin&#233;raire de 22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni &#224; 45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+		<text fill="#00cc2e" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:trktrk3_label" text-anchor="start" x="6" y="477.411911998909">Itin&#233;raire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni &#224; 28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		<text fill="#b5cc00" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:trktrk2_label" text-anchor="start" x="6" y="466.411911998909">Itin&#233;raire de 25 Mingarry Street, Kelvinside, Glasgow &#224; 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		<text fill="#cc0000" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:trktrk1_label" text-anchor="start" x="6" y="455.411911998909">Itin&#233;raire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni &#224; 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		<text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" id="map:legend:header" text-anchor="start" x="6" y="441.661911998909">Tracks:</text>
+	</g>
+	<g class="draggable" id="Scale" x="350" y="256.705955999455">
+		<line fill="none" id="scale_line" stroke="#000000" stroke-width="1" x1="157.371626852208" x2="542.628373147792" y1="494.411911998909" y2="494.411911998909" />
+		<line fill="none" id="scale_end1" stroke="#000000" stroke-width="1" x1="157.371626852208" x2="157.371626852208" y1="492.411911998909" y2="496.411911998909" />
+		<line fill="none" id="scale_end2" stroke="#000000" stroke-width="1" x1="542.628373147792" x2="542.628373147792" y1="492.411911998909" y2="496.411911998909" />
+		<text fill="#000000" font-family="Verdana" font-size="11" id="scale_text" text-anchor="middle" x="350" y="492.411911998909">1 km</text>
+	</g>
+	<g id="map:logo" x="350" y="510.411911998909">
+		<rect fill="#FFFFFF" height="11" opacity="0.6" width="160" x="270" y="501.411911998909" />
+		<a href="https://www.gpsvisualizer.com/" target="_blank">
+			<text fill="#000000" font-family="Verdana" font-size="9" text-anchor="middle" transform="translate(350,510.411911998909) rotate(0) translate(-350,-510.411911998909)" x="350" y="510.411911998909">created by GPSVisualizer.com</text>
+		</a>
+	</g>
+	<rect fill="none" height="512" id="image_border" opacity="0" stroke="#000000" stroke-width="1" width="699" x="0.5" y="0.5" />
+	<style type="text/css">.draggable { cursor:move; }</style>
+	<script type="text/javascript"><![CDATA[
+		function makeDraggable(evt) {
+			var svg = evt.target; svg.addEventListener('mousedown', startDrag); svg.addEventListener('mousemove', drag); svg.addEventListener('mouseup', endDrag); svg.addEventListener('mouseleave', endDrag); svg.addEventListener('touchstart', startDrag); svg.addEventListener('touchmove', drag); svg.addEventListener('touchend', endDrag); svg.addEventListener('touchleave', endDrag); svg.addEventListener('touchcancel', endDrag); var selectedElement, offset, transform, bbox, minX, maxX, minY, maxY;
+			function getMousePosition(evt) { var CTM = svg.getScreenCTM(); if(evt.touches) { evt = evt.touches[0]; } return { x:(evt.clientX-CTM.e)/CTM.a, y:(evt.clientY-CTM.f)/CTM.d }; }
+			function startDrag(evt) { if(evt.target.classList && evt.target.classList.contains('draggable')) { selectedElement = evt.target; initialiseDragging(evt); } else if(evt.target.parentNode) { if(evt.target.parentNode.classList && evt.target.parentNode.classList.contains('draggable')) { selectedElement = evt.target.parentNode; initialiseDragging(evt); } else if(evt.target.parentNode.parentNode && evt.target.parentNode.parentNode.classList && evt.target.parentNode.parentNode.classList.contains('draggable')) { selectedElement = evt.target.parentNode.parentNode; initialiseDragging(evt); } } }
+			function initialiseDragging(evt) { offset = getMousePosition(evt); var transforms = selectedElement.transform.baseVal; if(transforms.length === 0 || transforms.getItem(0).type !== SVGTransform.SVG_TRANSFORM_TRANSLATE) { var translate = svg.createSVGTransform(); translate.setTranslate(0,0); selectedElement.transform.baseVal.insertItemBefore(translate,0); } transform = transforms.getItem(0); offset.x -= transform.matrix.e; offset.y -= transform.matrix.f; }
+			function drag(evt) { if(selectedElement) { evt.preventDefault(); var coord = getMousePosition(evt); var dx = coord.x-offset.x; var dy = coord.y-offset.y; transform.setTranslate(dx, dy); } }
+			function endDrag(evt) { selectedElement = false; }
+		}
+]]></script>
+	<!-- 		debugging stuff:
+		key = 20210417094742-14036
+		min. track = 
+		max. track = 
+		colorize min = 
+		colorize max = 
+		colorize range = 0
+		upper left (data) = 55.88158,-4.31047
+		lower right (data) = 55.87144,-4.2846277
+		upper left (drawing) = 55.8825158303009,-4.31213724516129
+		lower right (drawing) = 55.8705041696991,-4.28296045483871
+		center = 55.87651,-4.29754885
+		width,height (pixels) = 700,513.411911998909
+		width,height (degrees) = 0.0291767903225821,0.0120116606017078
+		scale = 7383, resolution = 2.604 m/pixel
+		bgmap = https://ows.terrestris.de/osm/service?service=WMS&version=1.3.0&request=GetMap&format=image/jpeg&exception=inimage&crs=EPSG:4326&styles=&layers=OSM-WMS&bbox=55.8705042,-4.3121372,55.8825158,-4.2829605&width=700&height=513
+		input form = https://www.gpsvisualizer.com/map_input?convert_delimiter=comma&convert_format=gpx&form=jpg&format=svg&units=metric&form:local_input=convert%2F20210417094537-14036-data.gpx
+ -->
+	<!-- 
+	Generated using the Perl SVG Module V2.59
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

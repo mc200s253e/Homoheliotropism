@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="700px"
+	 height="513px" viewBox="0 0 700 513" enable-background="new 0 0 700 513" xml:space="preserve">
+<g id="Scale_1_" onload="if(self.makeDraggable){makeDraggable(evt)}" xmlns:svg="http://www.w3.org/2000/svg">
+	<g id="Scale">
+		<line id="scale_line" fill="none" stroke="#000000" x1="157.371" y1="494.412" x2="542.628" y2="494.412"/>
+		<line id="scale_end1" fill="none" stroke="#000000" x1="157.371" y1="492.412" x2="157.371" y2="496.412"/>
+		<line id="scale_end2" fill="none" stroke="#000000" x1="542.628" y1="492.412" x2="542.628" y2="496.412"/>
+		<text id="scale_text" transform="matrix(1 0 0 1 335.9651 492.4121)" font-family="'Verdana'" font-size="11">1 km</text>
+	</g>
+</g>
+<g id="Itinéraire_de">
+	<g id="map:legend">
+		
+			<text id="map:legend:trktrk5_label" transform="matrix(1 0 0 1 -69.0002 588.4121)" fill="#5C00CC" font-family="'Verdana-Bold'" font-size="11">Itinéraire de Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		
+			<text id="map:legend:trktrk4_label" transform="matrix(1 0 0 1 -69.0002 577.4121)" fill="#0087CC" font-family="'Verdana-Bold'" font-size="11">Itinéraire de 22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni à 45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+		
+			<text id="map:legend:trktrk3_label" transform="matrix(1 0 0 1 -69.0002 566.4121)" fill="#00CC2E" font-family="'Verdana-Bold'" font-size="11">Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		
+			<text id="map:legend:trktrk2_label" transform="matrix(1 0 0 1 -69.0002 555.4121)" fill="#B5CC00" font-family="'Verdana-Bold'" font-size="11">Itinéraire de 25 Mingarry Street, Kelvinside, Glasgow à 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		
+			<text id="map:legend:trktrk1_label" transform="matrix(1 0 0 1 -69.0002 544.4121)" fill="#CC0000" font-family="'Verdana-Bold'" font-size="11">Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		<text id="map:legend:header" transform="matrix(1 0 0 1 -69.0002 530.6621)" font-family="'Verdana-Bold'" font-size="11">Tracks:</text>
+	</g>
+</g>
+<g id="street_names" display="none">
+	<g id="Waypoints" display="inline">
+		<circle id="wpt1:marker" fill-opacity="0" stroke="#000000" cx="512.315" cy="214.869" r="3"/>
+		<g id="wpt1:label">
+			<text id="wpt1:name" transform="matrix(1 0 0 1 517.3147 214.8691)" font-family="'Verdana'" font-size="11">381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		</g>
+		<circle id="wpt2:marker" fill-opacity="0" stroke="#000000" cx="84.533" cy="471.454" r="3"/>
+		<g id="wpt2:label">
+			<text id="wpt2:name" transform="matrix(1 0 0 1 89.533 471.4541)" font-family="'Verdana'" font-size="11">8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+		<circle id="wpt3:marker" fill-opacity="0" stroke="#000000" cx="656.924" cy="40.064" r="3"/>
+		<g id="wpt3:label">
+			<text id="wpt3:name" transform="matrix(1 0 0 1 661.9241 40.0645)" font-family="'Verdana'" font-size="11">25 Mingarry Street, Kelvinside, Glasgow</text>
+		</g>
+		<circle id="wpt4:marker" fill-opacity="0" stroke="#000000" cx="634.129" cy="72.296" r="3"/>
+		<g id="wpt4:label">
+			<text id="wpt4:name" transform="matrix(1 0 0 1 639.1292 72.2969)" font-family="'Verdana'" font-size="11">17 Clouston St, Kelvinside, Glasgow G20 8QR, Royaume-Uni</text>
+		</g>
+		<circle id="wpt5:marker" fill-opacity="0" stroke="#000000" cx="660" cy="90.492" r="3"/>
+		<g id="wpt5:label">
+			<text id="wpt5:name" transform="matrix(1 0 0 1 665.0002 90.4922)" font-family="'Verdana'" font-size="11">Fergus Drive, Glasgow G20 6AX, Royaume-Uni</text>
+		</g>
+		<circle id="wpt6:marker" fill-opacity="0" stroke="#000000" cx="589.615" cy="154.448" r="3"/>
+		<g id="wpt6:label">
+			<text id="wpt6:name" transform="matrix(1 0 0 1 594.6155 154.4482)" font-family="'Verdana'" font-size="11">Botanic Gardens, Glasgow G12 8DH, Royaume-Uni</text>
+		</g>
+		<circle id="wpt7:marker" fill-opacity="0" stroke="#000000" cx="533.163" cy="197.503" r="3"/>
+		<g id="wpt7:label">
+			<text id="wpt7:name" transform="matrix(1 0 0 1 538.1624 197.5029)" font-family="'Verdana'" font-size="11">West Lodge, 730D Great Western Rd, Glasgow G12 0UE, Royaume-Uni</text>
+		</g>
+		<circle id="wpt8:marker" fill-opacity="0" stroke="#000000" cx="512.315" cy="214.869" r="3"/>
+		<g id="wpt8:label">
+			<text id="wpt8:name" transform="matrix(1 0 0 1 517.3147 214.8691)" font-family="'Verdana'" font-size="11">381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+		</g>
+		<circle id="wpt9:marker" fill-opacity="0" stroke="#000000" cx="459.483" cy="182.167" r="3"/>
+		<g id="wpt9:label">
+			<text id="wpt9:name" transform="matrix(1 0 0 1 464.4827 182.167)" font-family="'Verdana'" font-size="11">2a Kew Ln, Glasgow G12 9AG, Royaume-Uni</text>
+		</g>
+		<circle id="wpt10:marker" fill-opacity="0" stroke="#000000" cx="442.743" cy="209.262" r="3"/>
+		<g id="wpt10:label">
+			<text id="wpt10:name" transform="matrix(1 0 0 1 447.7434 209.2617)" font-family="'Verdana'" font-size="11">Kelvinside Hillhead Parish Church, Saltoun Street, Glasgow</text>
+		</g>
+		<circle id="wpt11:marker" fill-opacity="0" stroke="#000000" cx="439.662" cy="214.224" r="3"/>
+		<g id="wpt11:label">
+			<text id="wpt11:name" transform="matrix(1 0 0 1 444.6624 214.2236)" font-family="'Verdana'" font-size="11">27 Saltoun St, Glasgow G12 9AJ, Royaume-Uni</text>
+		</g>
+		<circle id="wpt12:marker" fill-opacity="0" stroke="#000000" cx="395.993" cy="183.898" r="3"/>
+		<g id="wpt12:label">
+			<text id="wpt12:name" transform="matrix(1 0 0 1 400.9924 183.8975)" font-family="'Verdana'" font-size="11">34 Huntly Gardens, Glasgow G12 9AX, Royaume-Uni</text>
+		</g>
+		<circle id="wpt13:marker" fill-opacity="0" stroke="#000000" cx="355.942" cy="196.537" r="3"/>
+		<g id="wpt13:label">
+			<text id="wpt13:name" transform="matrix(1 0 0 1 360.9417 196.5371)" font-family="'Verdana'" font-size="11">1 Dundonald Rd, Glasgow G12 9LJ, Royaume-Uni</text>
+		</g>
+		<circle id="wpt14:marker" fill-opacity="0" stroke="#000000" cx="356.167" cy="202.457" r="3"/>
+		<g id="wpt14:label">
+			<text id="wpt14:name" transform="matrix(1 0 0 1 361.1663 202.457)" font-family="'Verdana'" font-size="11">10 Marchmont Terrace, Glasgow G12 9LS, Royaume-Uni</text>
+		</g>
+		<circle id="wpt15:marker" fill-opacity="0" stroke="#000000" cx="343.876" cy="220.464" r="3"/>
+		<g id="wpt15:label">
+			<text id="wpt15:name" transform="matrix(1 0 0 1 348.8757 220.4639)" font-family="'Verdana'" font-size="11">7 Bowmont Terrace, Glasgow G12 9LP, Royaume-Uni</text>
+		</g>
+		<circle id="wpt16:marker" fill-opacity="0" stroke="#000000" cx="373.35" cy="239.147" r="3"/>
+		<g id="wpt16:label">
+			<text id="wpt16:name" transform="matrix(1 0 0 1 378.3499 239.1475)" font-family="'Verdana'" font-size="11">24 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle id="wpt17:marker" fill-opacity="0" stroke="#000000" cx="378.335" cy="248.247" r="3"/>
+		<g id="wpt17:label">
+			<text id="wpt17:name" transform="matrix(1 0 0 1 383.3352 248.2471)" font-family="'Verdana'" font-size="11">28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle id="wpt18:marker" fill-opacity="0" stroke="#000000" cx="364.502" cy="239.626" r="3"/>
+		<g id="wpt18:label">
+			<text id="wpt18:name" transform="matrix(1 0 0 1 369.5022 239.626)" font-family="'Verdana'" font-size="11">22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+		</g>
+		<circle id="wpt19:marker" fill-opacity="0" stroke="#000000" cx="348.451" cy="265.955" r="3"/>
+		<g id="wpt19:label">
+			<text id="wpt19:name" transform="matrix(1 0 0 1 353.4514 265.9551)" font-family="'Verdana'" font-size="11">33 Victoria Cres Rd, Glasgow G12 9DD, Royaume-Uni</text>
+		</g>
+		<circle id="wpt20:marker" fill-opacity="0" stroke="#000000" cx="332.509" cy="289.964" r="3"/>
+		<g id="wpt20:label">
+			<text id="wpt20:name" transform="matrix(1 0 0 1 337.5085 289.9639)" font-family="'Verdana'" font-size="11">50 Dowanside Rd, Glasgow G12 9DW, Royaume-Uni</text>
+		</g>
+		<circle id="wpt21:marker" fill-opacity="0" stroke="#000000" cx="327.161" cy="252.692" r="3"/>
+		<g id="wpt21:label">
+			<text id="wpt21:name" transform="matrix(1 0 0 1 332.1609 252.6924)" font-family="'Verdana'" font-size="11">48 Victoria Cres Rd, Glasgow G12 9DE, Royaume-Uni</text>
+		</g>
+		<circle id="wpt22:marker" fill-opacity="0" stroke="#000000" cx="307.068" cy="343.815" r="3"/>
+		<g id="wpt22:label">
+			<text id="wpt22:name" transform="matrix(1 0 0 1 312.0676 343.8154)" font-family="'Verdana'" font-size="11">78 Dowanhill St, Glasgow G12 9EG, Royaume-Uni</text>
+		</g>
+		<circle id="wpt23:marker" fill-opacity="0" stroke="#000000" cx="279.468" cy="353.762" r="3"/>
+		<g id="wpt23:label">
+			<text id="wpt23:name" transform="matrix(1 0 0 1 284.468 353.7617)" font-family="'Verdana'" font-size="11">Dowanhill Park, Havelock Street, Glasgow</text>
+		</g>
+		<circle id="wpt24:marker" fill-opacity="0" stroke="#000000" cx="254.912" cy="362.05" r="3"/>
+		<g id="wpt24:label">
+			<text id="wpt24:name" transform="matrix(1 0 0 1 259.9124 362.0498)" font-family="'Verdana'" font-size="11">93-95 Hyndland St, Glasgow G11 5PU, Royaume-Uni</text>
+		</g>
+		<circle id="wpt25:marker" fill-opacity="0" stroke="#000000" cx="250.116" cy="377.646" r="3"/>
+		<g id="wpt25:label">
+			<text id="wpt25:name" transform="matrix(1 0 0 1 255.1165 377.6465)" font-family="'Verdana'" font-size="11">91 Hyndland St, Glasgow G11 5PU, Royaume-Uni</text>
+		</g>
+		<circle id="wpt26:marker" fill-opacity="0" stroke="#000000" cx="244.198" cy="368.063" r="3"/>
+		<g id="wpt26:label">
+			<text id="wpt26:name" transform="matrix(1 0 0 1 249.1975 368.0635)" font-family="'Verdana'" font-size="11">1 Partickhill Rd, Glasgow G11 5BL, Royaume-Uni</text>
+		</g>
+		<circle id="wpt27:marker" fill-opacity="0" stroke="#000000" cx="126.209" cy="355.779" r="3"/>
+		<g id="wpt27:label">
+			<text id="wpt27:name" transform="matrix(1 0 0 1 131.2092 355.7793)" font-family="'Verdana'" font-size="11">45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+		</g>
+		<circle id="wpt28:marker" fill-opacity="0" stroke="#000000" cx="127.303" cy="341.688" r="3"/>
+		<g id="wpt28:label">
+			<text id="wpt28:name" transform="matrix(1 0 0 1 132.303 341.6875)" font-family="'Verdana'" font-size="11">Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow</text>
+		</g>
+		<circle id="wpt29:marker" fill-opacity="0" stroke="#000000" cx="112.021" cy="335.973" r="3"/>
+		<g id="wpt29:label">
+			<text id="wpt29:name" transform="matrix(1 0 0 1 117.0203 335.9727)" font-family="'Verdana'" font-size="11">Partickhill Court, Glasgow</text>
+		</g>
+		<circle id="wpt30:marker" fill-opacity="0" stroke="#000000" cx="95.39" cy="329.925" r="3"/>
+		<g id="wpt30:label">
+			<text id="wpt30:name" transform="matrix(1 0 0 1 100.3894 329.9248)" font-family="'Verdana'" font-size="11">16 Partickhill Ct, Glasgow G11 5BA, Royaume-Uni</text>
+		</g>
+		<circle id="wpt31:marker" fill-opacity="0" stroke="#000000" cx="63.95" cy="337.742" r="3"/>
+		<g id="wpt31:label">
+			<text id="wpt31:name" transform="matrix(1 0 0 1 68.9504 337.7422)" font-family="'Verdana'" font-size="11">60 Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</text>
+		</g>
+		<circle id="wpt32:marker" fill-opacity="0" stroke="#000000" cx="66.269" cy="340.986" r="3"/>
+		<g id="wpt32:label">
+			<text id="wpt32:name" transform="matrix(1 0 0 1 71.2683 340.9863)" font-family="'Verdana'" font-size="11">63A Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</text>
+		</g>
+		<circle id="wpt33:marker" fill-opacity="0" stroke="#000000" cx="41.847" cy="383.618" r="3"/>
+		<g id="wpt33:label">
+			<text id="wpt33:name" transform="matrix(1 0 0 1 46.8469 383.6182)" font-family="'Verdana'" font-size="11">72 Peel St, Glasgow G11 5LR, Royaume-Uni</text>
+		</g>
+		<circle id="wpt34:marker" fill-opacity="0" stroke="#000000" cx="58.449" cy="473.326" r="3"/>
+		<g id="wpt34:label">
+			<text id="wpt34:name" transform="matrix(1 0 0 1 63.4495 473.3262)" font-family="'Verdana'" font-size="11">13 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+		<circle id="wpt35:marker" fill-opacity="0" stroke="#000000" cx="84.533" cy="471.454" r="3"/>
+		<g id="wpt35:label">
+			<text id="wpt35:name" transform="matrix(1 0 0 1 89.533 471.4541)" font-family="'Verdana'" font-size="11">8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+		</g>
+	</g>
+</g>
+<g id="Calque_2">
+	<g id="trk1:Itin_raire_de_381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni___8_Burgh_Hall_St__Partick__Glasgow_G11_5LN__Royaume_Uni">
+		<polyline id="trk1:p211" fill="none" stroke="#CC0000" stroke-width="2" stroke-linejoin="round" points="512.396,214.818 
+			507.117,211.826 469.691,188.745 459.373,182.333 450.497,196.866 439.7,214.391 433.224,210.116 426.506,206.269 
+			407.073,193.874 401.794,190.882 399.635,188.745 398.436,187.035 396.036,184.043 391.958,184.898 390.278,185.325 
+			386.44,186.608 384.281,187.035 382.121,187.89 379.962,189.172 377.563,190.455 375.404,191.309 373.244,192.592 
+			370.845,193.447 368.926,194.301 367.006,194.729 364.607,195.584 362.688,195.584 360.289,196.011 358.369,196.439 
+			356.93,196.439 355.97,196.439 355.73,197.293 356.21,202.423 355.73,202.85 355.251,203.277 346.853,217.383 346.134,218.237 
+			345.174,219.52 343.974,220.375 345.654,221.657 356.93,228.496 366.767,234.907 369.166,236.617 373.244,239.181 
+			373.964,241.319 374.684,243.028 375.404,244.311 376.363,245.593 377.323,246.875 378.282,248.157 364.607,239.609 
+			361.728,243.883 360.049,246.875 355.97,253.287 348.532,266.109 347.093,264.827 340.376,260.98 337.977,266.537 
+			337.497,267.818 337.017,269.956 335.817,275.514 332.458,290.045 335.817,275.514 337.017,269.956 337.497,267.818 
+			337.977,266.537 340.376,260.98 336.537,258.416 327.18,252.859 325.981,255.424 324.301,263.117 317.104,295.174 
+			317.104,297.739 315.904,302.868 309.187,334.07 307.027,343.901 296.711,342.619 295.991,345.611 291.673,347.321 
+			289.034,348.176 286.155,349.458 283.995,350.312 282.556,351.168 281.356,351.595 280.636,352.45 280.157,352.877 
+			279.437,353.732 278.957,355.442 278.477,356.724 277.518,357.152 276.558,358.006 275.358,358.434 274.159,358.434 
+			272.959,358.861 271.76,358.861 270.32,358.861 269.12,358.861 267.921,364.845 254.965,361.853 254.725,363.562 254.486,365.273 
+			252.326,375.103 252.086,375.531 251.846,375.958 250.167,377.668 249.687,376.812 248.728,375.103 244.169,368.265 
+			241.29,369.119 240.33,369.547 239.131,369.547 234.333,369.119 227.615,368.692 224.256,368.692 220.656,368.265 
+			215.859,367.837 205.303,366.128 189.948,363.99 159.479,360.144 151.081,358.861 146.763,358.434 133.807,356.724 
+			128.529,355.869 126.13,355.869 127.33,342.192 127.33,340.909 127.09,339.627 126.61,339.2 126.37,338.345 125.65,337.917 
+			124.691,337.062 123.731,336.635 122.531,336.208 121.092,336.208 112.935,336.208 111.975,335.78 111.255,335.78 107.656,334.07 
+			104.058,332.361 102.618,331.933 101.419,331.506 100.699,331.078 94.461,329.796 93.262,329.369 93.022,330.224 91.582,330.224 
+			84.385,324.24 79.346,322.957 78.387,322.957 77.906,323.385 76.707,323.812 74.788,325.522 74.308,325.949 73.109,326.804 
+			72.149,327.232 71.189,327.659 69.99,328.086 68.31,328.086 66.631,328.086 65.671,328.514 65.191,328.941 64.951,329.796 
+			64.951,330.651 64.951,331.078 65.911,334.925 66.151,335.353 66.151,335.78 65.911,336.208 63.992,337.917 64.951,339.2 
+			66.151,340.909 61.593,343.901 60.633,344.756 58.953,345.611 58.234,346.466 57.754,347.321 57.274,348.603 57.034,349.458 
+			56.794,349.458 56.554,351.168 56.314,353.305 56.314,355.442 56.314,357.579 56.314,359.289 56.554,360.998 56.314,361.853 
+			56.074,362.708 55.595,363.99 54.875,364.845 54.155,366.128 52.476,368.265 50.796,370.829 46.238,377.241 41.919,383.652 
+			42.159,384.507 42.399,385.789 42.399,387.926 42.399,389.209 42.399,390.062 41.919,393.055 41.44,395.62 41.2,396.902 
+			40.72,398.612 40.24,399.894 40.24,401.604 40,402.459 40.24,403.314 40.48,404.596 48.157,434.089 58.474,473.412 
+			84.625,471.275 		"/>
+	</g>
+	<g id="trk1:label">
+		<text id="trk1:name" transform="matrix(1 0 0 1 148.9553 -59.1816)" fill="#CC0000" font-family="'Verdana'" font-size="11">Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+	</g>
+</g>
+<g id="Calque_6">
+	
+		<g id="trk5:Itin_raire_de_Partick_Hill_Bowling___Community_Club__Partickhill_Road__Glasgow___8_Burgh_Hall_St__Partick__Glasgow_G11_5LN__Royaume_Uni">
+		<polyline id="trk5:p85" fill="none" stroke="#5C00CC" stroke-width="2" stroke-linejoin="round" points="127.33,341.764 
+			127.33,340.054 126.37,338.345 125.65,337.917 124.691,337.062 123.731,336.635 122.531,336.208 121.092,336.208 112.935,336.208 
+			111.975,335.78 111.255,335.78 107.656,334.07 104.058,332.361 102.618,331.933 101.419,331.506 100.699,331.078 95.421,329.796 
+			94.461,329.796 93.262,329.369 93.022,330.224 91.582,330.224 84.385,324.24 79.346,322.957 78.387,322.957 77.906,323.385 
+			76.707,323.812 74.788,325.522 74.308,325.949 73.109,326.804 72.149,327.232 71.189,327.659 69.99,328.086 68.31,328.086 
+			66.151,328.086 65.191,328.941 64.951,329.796 64.951,330.651 64.951,331.078 65.911,334.925 66.151,335.353 66.151,335.78 
+			65.911,336.208 63.992,337.917 64.951,339.2 66.151,340.909 61.593,343.901 60.633,344.756 58.953,345.611 58.234,346.466 
+			57.754,347.321 57.274,348.603 57.034,349.458 56.794,349.458 56.554,351.168 56.314,353.305 56.314,355.442 56.314,357.579 
+			56.314,359.289 56.554,360.998 56.314,361.853 56.074,362.708 55.595,363.99 54.875,364.845 54.155,366.128 52.476,368.265 
+			50.796,370.829 46.238,377.241 41.919,383.652 42.159,384.507 42.399,385.789 42.399,387.926 42.399,389.209 42.399,390.062 
+			41.919,393.055 41.44,395.62 41.2,396.902 40.72,398.612 40.24,399.894 40.24,401.604 40,402.459 40.24,403.314 40.48,404.596 
+			48.157,434.089 58.474,473.412 84.625,471.275 		"/>
+	</g>
+	<g id="trk5:label">
+		<text id="trk5:name" transform="matrix(1 0 0 1 -712.343 320.9727)" fill="#5C00CC" font-family="'Verdana'" font-size="11">Itinéraire de Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</text>
+	</g>
+</g>
+<g id="Calque_5">
+	<g id="trk4:Itin_raire_de_22_Athole_Gardens__Glasgow_G12_9BB__Royaume_Uni___45_Partickhill_Rd__Glasgow_G11_5BY__Royaume_Uni">
+		<polyline id="trk4:p73" fill="none" stroke="#0087CC" stroke-width="2" stroke-linejoin="round" points="364.607,239.609 
+			361.728,243.883 360.049,246.875 355.97,253.287 348.532,266.109 347.093,264.827 340.376,260.98 337.977,266.537 
+			337.497,267.818 337.017,269.956 335.817,275.514 332.458,290.045 335.817,275.514 337.017,269.956 337.497,267.818 
+			337.977,266.537 340.376,260.98 336.537,258.416 327.18,252.859 325.981,255.424 324.301,263.117 317.104,295.174 
+			317.104,297.739 315.904,302.868 309.187,334.07 307.027,343.901 296.711,342.619 295.991,345.611 291.673,347.321 
+			289.034,348.176 286.155,349.458 283.995,350.312 282.556,351.168 281.356,351.595 280.636,352.45 280.157,352.877 
+			279.437,353.732 278.957,355.442 278.477,356.724 277.518,357.152 276.558,358.006 275.358,358.434 274.159,358.434 
+			272.959,358.861 271.76,358.861 270.32,358.861 269.12,358.861 267.921,364.845 254.965,361.853 254.725,363.562 254.486,365.273 
+			252.326,375.103 252.086,375.531 251.846,375.958 250.167,377.668 249.687,376.812 248.728,375.103 244.169,368.265 
+			241.29,369.119 239.851,369.547 234.333,369.119 227.615,368.692 224.256,368.692 220.656,368.265 215.859,367.837 
+			205.303,366.128 189.948,363.99 159.479,360.144 151.081,358.861 146.763,358.434 133.807,356.724 128.529,355.869 
+			126.13,355.869 		"/>
+	</g>
+	<g id="trk4:label">
+		<text id="trk4:name" transform="matrix(1 0 0 1 -400.9958 249.6924)" fill="#0087CC" font-family="'Verdana'" font-size="11">Itinéraire de 22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni à 45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</text>
+	</g>
+</g>
+<g id="Calque_3">
+	<g id="trk2:Itin_raire_de_25_Mingarry_Street__Kelvinside__Glasgow___381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni">
+		<polyline id="trk2:p53" fill="none" stroke="#B5CC00" stroke-width="2" stroke-linejoin="round" points="656.825,40 
+			642.671,60.089 638.592,66.073 634.033,72.485 645.07,80.178 646.989,81.461 653.227,85.735 659.465,90.009 659.945,90.436 
+			655.146,97.275 652.507,100.695 651.068,102.832 649.388,104.969 646.509,107.961 640.512,113.518 637.633,115.655 
+			623.717,126.34 606.443,138.736 600.205,143.01 598.526,144.292 596.847,145.575 595.166,147.284 593.488,148.994 
+			592.048,150.704 590.849,152.414 589.649,154.551 588.929,155.833 584.611,163.527 576.694,174.212 576.453,174.64 
+			576.214,175.067 576.214,175.495 574.295,178.059 567.576,183.188 566.616,184.043 565.178,185.325 560.139,187.463 
+			553.902,190.455 547.663,193.019 546.464,193.447 545.505,193.874 543.345,194.301 539.746,195.156 535.428,196.866 
+			533.269,197.293 532.309,197.721 531.11,198.148 529.67,199.003 527.99,200.285 527.031,200.713 520.313,207.124 516.475,210.971 
+			512.396,214.818 		"/>
+	</g>
+	<g id="trk2:label">
+		<text id="trk2:name" transform="matrix(1 0 0 1 69.2688 30)" fill="#B5CC00" font-family="'Verdana'" font-size="11">Itinéraire de 25 Mingarry Street, Kelvinside, Glasgow à 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</text>
+	</g>
+</g>
+<g id="Calque_4">
+	<g id="trk3:Itin_raire_de_381_Byres_Rd__Glasgow_G12_8AU__Royaume_Uni___28_Athole_Gardens__Glasgow_G12_9BB__Royaume_Uni">
+		<polyline id="trk3:p51" fill="none" stroke="#00CC2E" stroke-width="2" stroke-linejoin="round" points="512.396,214.818 
+			507.117,211.826 469.691,188.745 459.373,182.333 450.497,196.866 442.82,209.261 439.7,214.391 433.224,210.116 426.506,206.269 
+			407.073,193.874 401.794,190.882 399.635,188.745 398.436,187.035 396.036,184.043 391.958,184.898 390.278,185.325 
+			386.44,186.608 384.281,187.035 382.121,187.89 379.962,189.172 377.563,190.455 375.404,191.309 373.244,192.592 
+			370.845,193.447 368.926,194.301 367.006,194.729 364.607,195.584 362.688,195.584 360.289,196.011 358.369,196.439 
+			356.93,196.439 355.97,196.439 355.73,197.293 356.21,202.423 355.73,202.85 355.251,203.277 346.853,217.383 346.134,218.237 
+			345.174,219.52 343.974,220.375 345.654,221.657 356.93,228.496 366.767,234.907 369.166,236.617 373.244,239.181 
+			373.964,241.319 374.684,243.028 375.404,244.311 376.363,245.593 377.323,246.875 378.282,248.157 		"/>
+	</g>
+	<g id="trk3:label">
+		<text id="trk3:name" transform="matrix(1 0 0 1 535.0901 256.5)" fill="#00CC2E" font-family="'Verdana'" font-size="11">Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</text>
+	</g>
+</g>
+</svg>

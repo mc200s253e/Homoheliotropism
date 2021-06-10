@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer https://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="55.8774888" lon="-4.2907834">
+  <name>381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</name>
+  <sym>icon-1.png</sym>
+</wpt>
+<wpt lat="55.8714858" lon="-4.3086138">
+  <name>8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</name>
+  <sym>icon-2.png</sym>
+</wpt>
+<wpt lat="55.8815785" lon="-4.2847559">
+  <name>25 Mingarry Street, Kelvinside, Glasgow</name>
+  <sym>icon-1.png</sym>
+</wpt>
+<wpt lat="55.8808244" lon="-4.285706">
+  <name>17 Clouston St, Kelvinside, Glasgow G20 8QR, Royaume-Uni</name>
+  <sym>icon-2.png</sym>
+</wpt>
+<wpt lat="55.8803987" lon="-4.2846277">
+  <name>Fergus Drive, Glasgow G20 6AX, Royaume-Uni</name>
+  <sym>icon-3.png</sym>
+</wpt>
+<wpt lat="55.8789024" lon="-4.2875614">
+  <name>Botanic Gardens, Glasgow G12 8DH, Royaume-Uni</name>
+  <sym>icon-4.png</sym>
+</wpt>
+<wpt lat="55.8778951" lon="-4.2899144">
+  <name>West Lodge, 730D Great Western Rd, Glasgow G12 0UE, Royaume-Uni</name>
+  <sym>icon-5.png</sym>
+</wpt>
+<wpt lat="55.8774888" lon="-4.2907834">
+  <name>381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</name>
+  <sym>icon-6.png</sym>
+</wpt>
+<wpt lat="55.8782539" lon="-4.2929855">
+  <name>2a Kew Ln, Glasgow G12 9AG, Royaume-Uni</name>
+  <sym>icon-2.png</sym>
+</wpt>
+<wpt lat="55.87762" lon="-4.2936832">
+  <name>Kelvinside Hillhead Parish Church, Saltoun Street, Glasgow</name>
+  <sym>icon-3.png</sym>
+</wpt>
+<wpt lat="55.8775039" lon="-4.2938116">
+  <name>27 Saltoun St, Glasgow G12 9AJ, Royaume-Uni</name>
+  <sym>icon-4.png</sym>
+</wpt>
+<wpt lat="55.8782134" lon="-4.2956318">
+  <name>34 Huntly Gardens, Glasgow G12 9AX, Royaume-Uni</name>
+  <sym>icon-5.png</sym>
+</wpt>
+<wpt lat="55.8779177" lon="-4.2973012">
+  <name>1 Dundonald Rd, Glasgow G12 9LJ, Royaume-Uni</name>
+  <sym>icon-6.png</sym>
+</wpt>
+<wpt lat="55.8777792" lon="-4.2972918">
+  <name>10 Marchmont Terrace, Glasgow G12 9LS, Royaume-Uni</name>
+  <sym>icon-7.png</sym>
+</wpt>
+<wpt lat="55.8773579" lon="-4.2978041">
+  <name>7 Bowmont Terrace, Glasgow G12 9LP, Royaume-Uni</name>
+  <sym>icon-8.png</sym>
+</wpt>
+<wpt lat="55.8769208" lon="-4.2965756">
+  <name>24 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</name>
+  <sym>icon-9.png</sym>
+</wpt>
+<wpt lat="55.8767079" lon="-4.2963678">
+  <name>28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</name>
+  <sym>icon-10.png</sym>
+</wpt>
+<wpt lat="55.8769096" lon="-4.2969444">
+  <name>22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</name>
+  <sym>icon-1.png</sym>
+</wpt>
+<wpt lat="55.8762936" lon="-4.2976134">
+  <name>33 Victoria Cres Rd, Glasgow G12 9DD, Royaume-Uni</name>
+  <sym>icon-2.png</sym>
+</wpt>
+<wpt lat="55.8757319" lon="-4.2982779">
+  <name>50 Dowanside Rd, Glasgow G12 9DW, Royaume-Uni</name>
+  <sym>icon-3.png</sym>
+</wpt>
+<wpt lat="55.8766039" lon="-4.2985008">
+  <name>48 Victoria Cres Rd, Glasgow G12 9DE, Royaume-Uni</name>
+  <sym>icon-4.png</sym>
+</wpt>
+<wpt lat="55.874472" lon="-4.2993383">
+  <name>78 Dowanhill St, Glasgow G12 9EG, Royaume-Uni</name>
+  <sym>icon-5.png</sym>
+</wpt>
+<wpt lat="55.8742393" lon="-4.3004887">
+  <name>Dowanhill Park, Havelock Street, Glasgow</name>
+  <sym>icon-6.png</sym>
+</wpt>
+<wpt lat="55.8740454" lon="-4.3015122">
+  <name>93-95 Hyndland St, Glasgow G11 5PU, Royaume-Uni</name>
+  <sym>icon-7.png</sym>
+</wpt>
+<wpt lat="55.8736805" lon="-4.3017121">
+  <name>91 Hyndland St, Glasgow G11 5PU, Royaume-Uni</name>
+  <sym>icon-8.png</sym>
+</wpt>
+<wpt lat="55.8739047" lon="-4.3019588">
+  <name>1 Partickhill Rd, Glasgow G11 5BL, Royaume-Uni</name>
+  <sym>icon-9.png</sym>
+</wpt>
+<wpt lat="55.8741921" lon="-4.3068767">
+  <name>45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</name>
+  <sym>icon-10.png</sym>
+</wpt>
+<wpt lat="55.8745218" lon="-4.3068311">
+  <name>Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow</name>
+  <sym>icon-1.png</sym>
+</wpt>
+<wpt lat="55.8746555" lon="-4.3074681">
+  <name>Partickhill Court, Glasgow</name>
+  <sym>icon-2.png</sym>
+</wpt>
+<wpt lat="55.874797" lon="-4.3081613">
+  <name>16 Partickhill Ct, Glasgow G11 5BA, Royaume-Uni</name>
+  <sym>icon-3.png</sym>
+</wpt>
+<wpt lat="55.8746141" lon="-4.3094717">
+  <name>60 Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</name>
+  <sym>icon-4.png</sym>
+</wpt>
+<wpt lat="55.8745382" lon="-4.3093751">
+  <name>63A Partickhill Rd, Glasgow G11 5AB, Royaume-Uni</name>
+  <sym>icon-5.png</sym>
+</wpt>
+<wpt lat="55.8735408" lon="-4.310393">
+  <name>72 Peel St, Glasgow G11 5LR, Royaume-Uni</name>
+  <sym>icon-6.png</sym>
+</wpt>
+<wpt lat="55.871442" lon="-4.309701">
+  <name>13 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</name>
+  <sym>icon-7.png</sym>
+</wpt>
+<wpt lat="55.8714858" lon="-4.3086138">
+  <name>8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</name>
+  <sym>icon-8.png</sym>
+</wpt>
+<trk>
+  <name>Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</name>
+  <trkseg>
+    <trkpt lat="55.87749" lon="-4.29078"></trkpt>
+    <trkpt lat="55.87756" lon="-4.291"></trkpt>
+    <trkpt lat="55.8781" lon="-4.29256"></trkpt>
+    <trkpt lat="55.87825" lon="-4.29299"></trkpt>
+    <trkpt lat="55.87791" lon="-4.29336"></trkpt>
+    <trkpt lat="55.8775" lon="-4.29381"></trkpt>
+    <trkpt lat="55.8776" lon="-4.29408"></trkpt>
+    <trkpt lat="55.87769" lon="-4.29436"></trkpt>
+    <trkpt lat="55.87798" lon="-4.29517"></trkpt>
+    <trkpt lat="55.87805" lon="-4.29539"></trkpt>
+    <trkpt lat="55.8781" lon="-4.29548"></trkpt>
+    <trkpt lat="55.87814" lon="-4.29553"></trkpt>
+    <trkpt lat="55.87821" lon="-4.29563"></trkpt>
+    <trkpt lat="55.87819" lon="-4.2958"></trkpt>
+    <trkpt lat="55.87818" lon="-4.29587"></trkpt>
+    <trkpt lat="55.87815" lon="-4.29603"></trkpt>
+    <trkpt lat="55.87814" lon="-4.29612"></trkpt>
+    <trkpt lat="55.87812" lon="-4.29621"></trkpt>
+    <trkpt lat="55.87809" lon="-4.2963"></trkpt>
+    <trkpt lat="55.87806" lon="-4.2964"></trkpt>
+    <trkpt lat="55.87804" lon="-4.29649"></trkpt>
+    <trkpt lat="55.87801" lon="-4.29658"></trkpt>
+    <trkpt lat="55.87799" lon="-4.29668"></trkpt>
+    <trkpt lat="55.87797" lon="-4.29676"></trkpt>
+    <trkpt lat="55.87796" lon="-4.29684"></trkpt>
+    <trkpt lat="55.87794" lon="-4.29694"></trkpt>
+    <trkpt lat="55.87794" lon="-4.29702"></trkpt>
+    <trkpt lat="55.87793" lon="-4.29712"></trkpt>
+    <trkpt lat="55.87792" lon="-4.2972"></trkpt>
+    <trkpt lat="55.87792" lon="-4.29726"></trkpt>
+    <trkpt lat="55.87792" lon="-4.2973"></trkpt>
+    <trkpt lat="55.8779" lon="-4.29731"></trkpt>
+    <trkpt lat="55.87778" lon="-4.29729"></trkpt>
+    <trkpt lat="55.87777" lon="-4.29731"></trkpt>
+    <trkpt lat="55.87776" lon="-4.29733"></trkpt>
+    <trkpt lat="55.87743" lon="-4.29768"></trkpt>
+    <trkpt lat="55.87741" lon="-4.29771"></trkpt>
+    <trkpt lat="55.87738" lon="-4.29775"></trkpt>
+    <trkpt lat="55.87736" lon="-4.2978"></trkpt>
+    <trkpt lat="55.87733" lon="-4.29773"></trkpt>
+    <trkpt lat="55.87717" lon="-4.29726"></trkpt>
+    <trkpt lat="55.87702" lon="-4.29685"></trkpt>
+    <trkpt lat="55.87698" lon="-4.29675"></trkpt>
+    <trkpt lat="55.87692" lon="-4.29658"></trkpt>
+    <trkpt lat="55.87687" lon="-4.29655"></trkpt>
+    <trkpt lat="55.87683" lon="-4.29652"></trkpt>
+    <trkpt lat="55.8768" lon="-4.29649"></trkpt>
+    <trkpt lat="55.87677" lon="-4.29645"></trkpt>
+    <trkpt lat="55.87674" lon="-4.29641"></trkpt>
+    <trkpt lat="55.87671" lon="-4.29637"></trkpt>
+    <trkpt lat="55.87691" lon="-4.29694"></trkpt>
+    <trkpt lat="55.87681" lon="-4.29706"></trkpt>
+    <trkpt lat="55.87674" lon="-4.29713"></trkpt>
+    <trkpt lat="55.87659" lon="-4.2973"></trkpt>
+    <trkpt lat="55.87629" lon="-4.29761"></trkpt>
+    <trkpt lat="55.87632" lon="-4.29767"></trkpt>
+    <trkpt lat="55.87641" lon="-4.29795"></trkpt>
+    <trkpt lat="55.87628" lon="-4.29805"></trkpt>
+    <trkpt lat="55.87625" lon="-4.29807"></trkpt>
+    <trkpt lat="55.8762" lon="-4.29809"></trkpt>
+    <trkpt lat="55.87607" lon="-4.29814"></trkpt>
+    <trkpt lat="55.87573" lon="-4.29828"></trkpt>
+    <trkpt lat="55.87607" lon="-4.29814"></trkpt>
+    <trkpt lat="55.8762" lon="-4.29809"></trkpt>
+    <trkpt lat="55.87625" lon="-4.29807"></trkpt>
+    <trkpt lat="55.87628" lon="-4.29805"></trkpt>
+    <trkpt lat="55.87641" lon="-4.29795"></trkpt>
+    <trkpt lat="55.87647" lon="-4.29811"></trkpt>
+    <trkpt lat="55.8766" lon="-4.2985"></trkpt>
+    <trkpt lat="55.87654" lon="-4.29855"></trkpt>
+    <trkpt lat="55.87636" lon="-4.29862"></trkpt>
+    <trkpt lat="55.87561" lon="-4.29892"></trkpt>
+    <trkpt lat="55.87555" lon="-4.29892"></trkpt>
+    <trkpt lat="55.87543" lon="-4.29897"></trkpt>
+    <trkpt lat="55.8747" lon="-4.29925"></trkpt>
+    <trkpt lat="55.87447" lon="-4.29934"></trkpt>
+    <trkpt lat="55.8745" lon="-4.29977"></trkpt>
+    <trkpt lat="55.87443" lon="-4.2998"></trkpt>
+    <trkpt lat="55.87439" lon="-4.29998"></trkpt>
+    <trkpt lat="55.87437" lon="-4.30009"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30021"></trkpt>
+    <trkpt lat="55.87432" lon="-4.3003"></trkpt>
+    <trkpt lat="55.8743" lon="-4.30036"></trkpt>
+    <trkpt lat="55.87429" lon="-4.30041"></trkpt>
+    <trkpt lat="55.87427" lon="-4.30044"></trkpt>
+    <trkpt lat="55.87426" lon="-4.30046"></trkpt>
+    <trkpt lat="55.87424" lon="-4.30049"></trkpt>
+    <trkpt lat="55.8742" lon="-4.30051"></trkpt>
+    <trkpt lat="55.87417" lon="-4.30053"></trkpt>
+    <trkpt lat="55.87416" lon="-4.30057"></trkpt>
+    <trkpt lat="55.87414" lon="-4.30061"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30066"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30071"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30076"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30081"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30087"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30092"></trkpt>
+    <trkpt lat="55.87398" lon="-4.30097"></trkpt>
+    <trkpt lat="55.87405" lon="-4.30151"></trkpt>
+    <trkpt lat="55.87401" lon="-4.30152"></trkpt>
+    <trkpt lat="55.87397" lon="-4.30153"></trkpt>
+    <trkpt lat="55.87374" lon="-4.30162"></trkpt>
+    <trkpt lat="55.87373" lon="-4.30163"></trkpt>
+    <trkpt lat="55.87372" lon="-4.30164"></trkpt>
+    <trkpt lat="55.87368" lon="-4.30171"></trkpt>
+    <trkpt lat="55.8737" lon="-4.30173"></trkpt>
+    <trkpt lat="55.87374" lon="-4.30177"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30196"></trkpt>
+    <trkpt lat="55.87388" lon="-4.30208"></trkpt>
+    <trkpt lat="55.87387" lon="-4.30212"></trkpt>
+    <trkpt lat="55.87387" lon="-4.30217"></trkpt>
+    <trkpt lat="55.87388" lon="-4.30237"></trkpt>
+    <trkpt lat="55.87389" lon="-4.30265"></trkpt>
+    <trkpt lat="55.87389" lon="-4.30279"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30294"></trkpt>
+    <trkpt lat="55.87391" lon="-4.30314"></trkpt>
+    <trkpt lat="55.87395" lon="-4.30358"></trkpt>
+    <trkpt lat="55.874" lon="-4.30422"></trkpt>
+    <trkpt lat="55.87409" lon="-4.30549"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30584"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30602"></trkpt>
+    <trkpt lat="55.87417" lon="-4.30656"></trkpt>
+    <trkpt lat="55.87419" lon="-4.30678"></trkpt>
+    <trkpt lat="55.87419" lon="-4.30688"></trkpt>
+    <trkpt lat="55.87451" lon="-4.30683"></trkpt>
+    <trkpt lat="55.87454" lon="-4.30683"></trkpt>
+    <trkpt lat="55.87457" lon="-4.30684"></trkpt>
+    <trkpt lat="55.87458" lon="-4.30686"></trkpt>
+    <trkpt lat="55.8746" lon="-4.30687"></trkpt>
+    <trkpt lat="55.87461" lon="-4.3069"></trkpt>
+    <trkpt lat="55.87463" lon="-4.30694"></trkpt>
+    <trkpt lat="55.87464" lon="-4.30698"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30703"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30709"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30743"></trkpt>
+    <trkpt lat="55.87466" lon="-4.30747"></trkpt>
+    <trkpt lat="55.87466" lon="-4.3075"></trkpt>
+    <trkpt lat="55.8747" lon="-4.30765"></trkpt>
+    <trkpt lat="55.87474" lon="-4.3078"></trkpt>
+    <trkpt lat="55.87475" lon="-4.30786"></trkpt>
+    <trkpt lat="55.87476" lon="-4.30791"></trkpt>
+    <trkpt lat="55.87477" lon="-4.30794"></trkpt>
+    <trkpt lat="55.8748" lon="-4.3082"></trkpt>
+    <trkpt lat="55.87481" lon="-4.30825"></trkpt>
+    <trkpt lat="55.87479" lon="-4.30826"></trkpt>
+    <trkpt lat="55.87479" lon="-4.30832"></trkpt>
+    <trkpt lat="55.87493" lon="-4.30862"></trkpt>
+    <trkpt lat="55.87496" lon="-4.30883"></trkpt>
+    <trkpt lat="55.87496" lon="-4.30887"></trkpt>
+    <trkpt lat="55.87495" lon="-4.30889"></trkpt>
+    <trkpt lat="55.87494" lon="-4.30894"></trkpt>
+    <trkpt lat="55.8749" lon="-4.30902"></trkpt>
+    <trkpt lat="55.87489" lon="-4.30904"></trkpt>
+    <trkpt lat="55.87487" lon="-4.30909"></trkpt>
+    <trkpt lat="55.87486" lon="-4.30913"></trkpt>
+    <trkpt lat="55.87485" lon="-4.30917"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30922"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30929"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30936"></trkpt>
+    <trkpt lat="55.87483" lon="-4.3094"></trkpt>
+    <trkpt lat="55.87482" lon="-4.30942"></trkpt>
+    <trkpt lat="55.8748" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87478" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87477" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87468" lon="-4.30939"></trkpt>
+    <trkpt lat="55.87467" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87466" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30939"></trkpt>
+    <trkpt lat="55.87461" lon="-4.30947"></trkpt>
+    <trkpt lat="55.87458" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87454" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87447" lon="-4.30957"></trkpt>
+    <trkpt lat="55.87445" lon="-4.30961"></trkpt>
+    <trkpt lat="55.87443" lon="-4.30968"></trkpt>
+    <trkpt lat="55.87441" lon="-4.30971"></trkpt>
+    <trkpt lat="55.87439" lon="-4.30973"></trkpt>
+    <trkpt lat="55.87436" lon="-4.30975"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30976"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30977"></trkpt>
+    <trkpt lat="55.8743" lon="-4.30978"></trkpt>
+    <trkpt lat="55.87425" lon="-4.30979"></trkpt>
+    <trkpt lat="55.8742" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87415" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87411" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87407" lon="-4.30978"></trkpt>
+    <trkpt lat="55.87405" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87403" lon="-4.3098"></trkpt>
+    <trkpt lat="55.874" lon="-4.30982"></trkpt>
+    <trkpt lat="55.87398" lon="-4.30985"></trkpt>
+    <trkpt lat="55.87395" lon="-4.30988"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30995"></trkpt>
+    <trkpt lat="55.87384" lon="-4.31002"></trkpt>
+    <trkpt lat="55.87369" lon="-4.31021"></trkpt>
+    <trkpt lat="55.87354" lon="-4.31039"></trkpt>
+    <trkpt lat="55.87352" lon="-4.31038"></trkpt>
+    <trkpt lat="55.87349" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87344" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87341" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87339" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87332" lon="-4.31039"></trkpt>
+    <trkpt lat="55.87326" lon="-4.31041"></trkpt>
+    <trkpt lat="55.87323" lon="-4.31042"></trkpt>
+    <trkpt lat="55.87319" lon="-4.31044"></trkpt>
+    <trkpt lat="55.87316" lon="-4.31046"></trkpt>
+    <trkpt lat="55.87312" lon="-4.31046"></trkpt>
+    <trkpt lat="55.8731" lon="-4.31047"></trkpt>
+    <trkpt lat="55.87308" lon="-4.31046"></trkpt>
+    <trkpt lat="55.87305" lon="-4.31045"></trkpt>
+    <trkpt lat="55.87236" lon="-4.31013"></trkpt>
+    <trkpt lat="55.87144" lon="-4.3097"></trkpt>
+    <trkpt lat="55.87149" lon="-4.30861"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Itinéraire de 25 Mingarry Street, Kelvinside, Glasgow à 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni</name>
+  <trkseg>
+    <trkpt lat="55.88158" lon="-4.28476"></trkpt>
+    <trkpt lat="55.88111" lon="-4.28535"></trkpt>
+    <trkpt lat="55.88097" lon="-4.28552"></trkpt>
+    <trkpt lat="55.88082" lon="-4.28571"></trkpt>
+    <trkpt lat="55.88064" lon="-4.28525"></trkpt>
+    <trkpt lat="55.88061" lon="-4.28517"></trkpt>
+    <trkpt lat="55.88051" lon="-4.28491"></trkpt>
+    <trkpt lat="55.88041" lon="-4.28465"></trkpt>
+    <trkpt lat="55.8804" lon="-4.28463"></trkpt>
+    <trkpt lat="55.88024" lon="-4.28483"></trkpt>
+    <trkpt lat="55.88016" lon="-4.28494"></trkpt>
+    <trkpt lat="55.88011" lon="-4.285"></trkpt>
+    <trkpt lat="55.88006" lon="-4.28507"></trkpt>
+    <trkpt lat="55.87999" lon="-4.28519"></trkpt>
+    <trkpt lat="55.87986" lon="-4.28544"></trkpt>
+    <trkpt lat="55.87981" lon="-4.28556"></trkpt>
+    <trkpt lat="55.87956" lon="-4.28614"></trkpt>
+    <trkpt lat="55.87927" lon="-4.28686"></trkpt>
+    <trkpt lat="55.87917" lon="-4.28712"></trkpt>
+    <trkpt lat="55.87914" lon="-4.28719"></trkpt>
+    <trkpt lat="55.87911" lon="-4.28726"></trkpt>
+    <trkpt lat="55.87907" lon="-4.28733"></trkpt>
+    <trkpt lat="55.87903" lon="-4.2874"></trkpt>
+    <trkpt lat="55.87899" lon="-4.28746"></trkpt>
+    <trkpt lat="55.87895" lon="-4.28751"></trkpt>
+    <trkpt lat="55.8789" lon="-4.28756"></trkpt>
+    <trkpt lat="55.87887" lon="-4.28759"></trkpt>
+    <trkpt lat="55.87869" lon="-4.28777"></trkpt>
+    <trkpt lat="55.87844" lon="-4.2881"></trkpt>
+    <trkpt lat="55.87843" lon="-4.28811"></trkpt>
+    <trkpt lat="55.87842" lon="-4.28812"></trkpt>
+    <trkpt lat="55.87841" lon="-4.28812"></trkpt>
+    <trkpt lat="55.87835" lon="-4.2882"></trkpt>
+    <trkpt lat="55.87823" lon="-4.28848"></trkpt>
+    <trkpt lat="55.87821" lon="-4.28852"></trkpt>
+    <trkpt lat="55.87818" lon="-4.28858"></trkpt>
+    <trkpt lat="55.87813" lon="-4.28879"></trkpt>
+    <trkpt lat="55.87806" lon="-4.28905"></trkpt>
+    <trkpt lat="55.878" lon="-4.28931"></trkpt>
+    <trkpt lat="55.87799" lon="-4.28936"></trkpt>
+    <trkpt lat="55.87798" lon="-4.2894"></trkpt>
+    <trkpt lat="55.87797" lon="-4.28949"></trkpt>
+    <trkpt lat="55.87795" lon="-4.28964"></trkpt>
+    <trkpt lat="55.87791" lon="-4.28982"></trkpt>
+    <trkpt lat="55.8779" lon="-4.28991"></trkpt>
+    <trkpt lat="55.87789" lon="-4.28995"></trkpt>
+    <trkpt lat="55.87788" lon="-4.29"></trkpt>
+    <trkpt lat="55.87786" lon="-4.29006"></trkpt>
+    <trkpt lat="55.87783" lon="-4.29013"></trkpt>
+    <trkpt lat="55.87782" lon="-4.29017"></trkpt>
+    <trkpt lat="55.87767" lon="-4.29045"></trkpt>
+    <trkpt lat="55.87758" lon="-4.29061"></trkpt>
+    <trkpt lat="55.87749" lon="-4.29078"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Itinéraire de 381 Byres Rd, Glasgow G12 8AU, Royaume-Uni à 28 Athole Gardens, Glasgow G12 9BB, Royaume-Uni</name>
+  <trkseg>
+    <trkpt lat="55.87749" lon="-4.29078"></trkpt>
+    <trkpt lat="55.87756" lon="-4.291"></trkpt>
+    <trkpt lat="55.8781" lon="-4.29256"></trkpt>
+    <trkpt lat="55.87825" lon="-4.29299"></trkpt>
+    <trkpt lat="55.87791" lon="-4.29336"></trkpt>
+    <trkpt lat="55.87762" lon="-4.29368"></trkpt>
+    <trkpt lat="55.8775" lon="-4.29381"></trkpt>
+    <trkpt lat="55.8776" lon="-4.29408"></trkpt>
+    <trkpt lat="55.87769" lon="-4.29436"></trkpt>
+    <trkpt lat="55.87798" lon="-4.29517"></trkpt>
+    <trkpt lat="55.87805" lon="-4.29539"></trkpt>
+    <trkpt lat="55.8781" lon="-4.29548"></trkpt>
+    <trkpt lat="55.87814" lon="-4.29553"></trkpt>
+    <trkpt lat="55.87821" lon="-4.29563"></trkpt>
+    <trkpt lat="55.87819" lon="-4.2958"></trkpt>
+    <trkpt lat="55.87818" lon="-4.29587"></trkpt>
+    <trkpt lat="55.87815" lon="-4.29603"></trkpt>
+    <trkpt lat="55.87814" lon="-4.29612"></trkpt>
+    <trkpt lat="55.87812" lon="-4.29621"></trkpt>
+    <trkpt lat="55.87809" lon="-4.2963"></trkpt>
+    <trkpt lat="55.87806" lon="-4.2964"></trkpt>
+    <trkpt lat="55.87804" lon="-4.29649"></trkpt>
+    <trkpt lat="55.87801" lon="-4.29658"></trkpt>
+    <trkpt lat="55.87799" lon="-4.29668"></trkpt>
+    <trkpt lat="55.87797" lon="-4.29676"></trkpt>
+    <trkpt lat="55.87796" lon="-4.29684"></trkpt>
+    <trkpt lat="55.87794" lon="-4.29694"></trkpt>
+    <trkpt lat="55.87794" lon="-4.29702"></trkpt>
+    <trkpt lat="55.87793" lon="-4.29712"></trkpt>
+    <trkpt lat="55.87792" lon="-4.2972"></trkpt>
+    <trkpt lat="55.87792" lon="-4.29726"></trkpt>
+    <trkpt lat="55.87792" lon="-4.2973"></trkpt>
+    <trkpt lat="55.8779" lon="-4.29731"></trkpt>
+    <trkpt lat="55.87778" lon="-4.29729"></trkpt>
+    <trkpt lat="55.87777" lon="-4.29731"></trkpt>
+    <trkpt lat="55.87776" lon="-4.29733"></trkpt>
+    <trkpt lat="55.87743" lon="-4.29768"></trkpt>
+    <trkpt lat="55.87741" lon="-4.29771"></trkpt>
+    <trkpt lat="55.87738" lon="-4.29775"></trkpt>
+    <trkpt lat="55.87736" lon="-4.2978"></trkpt>
+    <trkpt lat="55.87733" lon="-4.29773"></trkpt>
+    <trkpt lat="55.87717" lon="-4.29726"></trkpt>
+    <trkpt lat="55.87702" lon="-4.29685"></trkpt>
+    <trkpt lat="55.87698" lon="-4.29675"></trkpt>
+    <trkpt lat="55.87692" lon="-4.29658"></trkpt>
+    <trkpt lat="55.87687" lon="-4.29655"></trkpt>
+    <trkpt lat="55.87683" lon="-4.29652"></trkpt>
+    <trkpt lat="55.8768" lon="-4.29649"></trkpt>
+    <trkpt lat="55.87677" lon="-4.29645"></trkpt>
+    <trkpt lat="55.87674" lon="-4.29641"></trkpt>
+    <trkpt lat="55.87671" lon="-4.29637"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Itinéraire de 22 Athole Gardens, Glasgow G12 9BB, Royaume-Uni à 45 Partickhill Rd, Glasgow G11 5BY, Royaume-Uni</name>
+  <trkseg>
+    <trkpt lat="55.87691" lon="-4.29694"></trkpt>
+    <trkpt lat="55.87681" lon="-4.29706"></trkpt>
+    <trkpt lat="55.87674" lon="-4.29713"></trkpt>
+    <trkpt lat="55.87659" lon="-4.2973"></trkpt>
+    <trkpt lat="55.87629" lon="-4.29761"></trkpt>
+    <trkpt lat="55.87632" lon="-4.29767"></trkpt>
+    <trkpt lat="55.87641" lon="-4.29795"></trkpt>
+    <trkpt lat="55.87628" lon="-4.29805"></trkpt>
+    <trkpt lat="55.87625" lon="-4.29807"></trkpt>
+    <trkpt lat="55.8762" lon="-4.29809"></trkpt>
+    <trkpt lat="55.87607" lon="-4.29814"></trkpt>
+    <trkpt lat="55.87573" lon="-4.29828"></trkpt>
+    <trkpt lat="55.87607" lon="-4.29814"></trkpt>
+    <trkpt lat="55.8762" lon="-4.29809"></trkpt>
+    <trkpt lat="55.87625" lon="-4.29807"></trkpt>
+    <trkpt lat="55.87628" lon="-4.29805"></trkpt>
+    <trkpt lat="55.87641" lon="-4.29795"></trkpt>
+    <trkpt lat="55.87647" lon="-4.29811"></trkpt>
+    <trkpt lat="55.8766" lon="-4.2985"></trkpt>
+    <trkpt lat="55.87654" lon="-4.29855"></trkpt>
+    <trkpt lat="55.87636" lon="-4.29862"></trkpt>
+    <trkpt lat="55.87561" lon="-4.29892"></trkpt>
+    <trkpt lat="55.87555" lon="-4.29892"></trkpt>
+    <trkpt lat="55.87543" lon="-4.29897"></trkpt>
+    <trkpt lat="55.8747" lon="-4.29925"></trkpt>
+    <trkpt lat="55.87447" lon="-4.29934"></trkpt>
+    <trkpt lat="55.8745" lon="-4.29977"></trkpt>
+    <trkpt lat="55.87443" lon="-4.2998"></trkpt>
+    <trkpt lat="55.87439" lon="-4.29998"></trkpt>
+    <trkpt lat="55.87437" lon="-4.30009"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30021"></trkpt>
+    <trkpt lat="55.87432" lon="-4.3003"></trkpt>
+    <trkpt lat="55.8743" lon="-4.30036"></trkpt>
+    <trkpt lat="55.87429" lon="-4.30041"></trkpt>
+    <trkpt lat="55.87427" lon="-4.30044"></trkpt>
+    <trkpt lat="55.87426" lon="-4.30046"></trkpt>
+    <trkpt lat="55.87424" lon="-4.30049"></trkpt>
+    <trkpt lat="55.8742" lon="-4.30051"></trkpt>
+    <trkpt lat="55.87417" lon="-4.30053"></trkpt>
+    <trkpt lat="55.87416" lon="-4.30057"></trkpt>
+    <trkpt lat="55.87414" lon="-4.30061"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30066"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30071"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30076"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30081"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30087"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30092"></trkpt>
+    <trkpt lat="55.87398" lon="-4.30097"></trkpt>
+    <trkpt lat="55.87405" lon="-4.30151"></trkpt>
+    <trkpt lat="55.87401" lon="-4.30152"></trkpt>
+    <trkpt lat="55.87397" lon="-4.30153"></trkpt>
+    <trkpt lat="55.87374" lon="-4.30162"></trkpt>
+    <trkpt lat="55.87373" lon="-4.30163"></trkpt>
+    <trkpt lat="55.87372" lon="-4.30164"></trkpt>
+    <trkpt lat="55.87368" lon="-4.30171"></trkpt>
+    <trkpt lat="55.8737" lon="-4.30173"></trkpt>
+    <trkpt lat="55.87374" lon="-4.30177"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30196"></trkpt>
+    <trkpt lat="55.87388" lon="-4.30208"></trkpt>
+    <trkpt lat="55.87387" lon="-4.30214"></trkpt>
+    <trkpt lat="55.87388" lon="-4.30237"></trkpt>
+    <trkpt lat="55.87389" lon="-4.30265"></trkpt>
+    <trkpt lat="55.87389" lon="-4.30279"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30294"></trkpt>
+    <trkpt lat="55.87391" lon="-4.30314"></trkpt>
+    <trkpt lat="55.87395" lon="-4.30358"></trkpt>
+    <trkpt lat="55.874" lon="-4.30422"></trkpt>
+    <trkpt lat="55.87409" lon="-4.30549"></trkpt>
+    <trkpt lat="55.87412" lon="-4.30584"></trkpt>
+    <trkpt lat="55.87413" lon="-4.30602"></trkpt>
+    <trkpt lat="55.87417" lon="-4.30656"></trkpt>
+    <trkpt lat="55.87419" lon="-4.30678"></trkpt>
+    <trkpt lat="55.87419" lon="-4.30688"></trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <name>Itinéraire de Partick Hill Bowling &amp; Community Club, Partickhill Road, Glasgow à 8 Burgh Hall St, Partick, Glasgow G11 5LN, Royaume-Uni</name>
+  <trkseg>
+    <trkpt lat="55.87452" lon="-4.30683"></trkpt>
+    <trkpt lat="55.87456" lon="-4.30683"></trkpt>
+    <trkpt lat="55.8746" lon="-4.30687"></trkpt>
+    <trkpt lat="55.87461" lon="-4.3069"></trkpt>
+    <trkpt lat="55.87463" lon="-4.30694"></trkpt>
+    <trkpt lat="55.87464" lon="-4.30698"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30703"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30709"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30743"></trkpt>
+    <trkpt lat="55.87466" lon="-4.30747"></trkpt>
+    <trkpt lat="55.87466" lon="-4.3075"></trkpt>
+    <trkpt lat="55.8747" lon="-4.30765"></trkpt>
+    <trkpt lat="55.87474" lon="-4.3078"></trkpt>
+    <trkpt lat="55.87475" lon="-4.30786"></trkpt>
+    <trkpt lat="55.87476" lon="-4.30791"></trkpt>
+    <trkpt lat="55.87477" lon="-4.30794"></trkpt>
+    <trkpt lat="55.8748" lon="-4.30816"></trkpt>
+    <trkpt lat="55.8748" lon="-4.3082"></trkpt>
+    <trkpt lat="55.87481" lon="-4.30825"></trkpt>
+    <trkpt lat="55.87479" lon="-4.30826"></trkpt>
+    <trkpt lat="55.87479" lon="-4.30832"></trkpt>
+    <trkpt lat="55.87493" lon="-4.30862"></trkpt>
+    <trkpt lat="55.87496" lon="-4.30883"></trkpt>
+    <trkpt lat="55.87496" lon="-4.30887"></trkpt>
+    <trkpt lat="55.87495" lon="-4.30889"></trkpt>
+    <trkpt lat="55.87494" lon="-4.30894"></trkpt>
+    <trkpt lat="55.8749" lon="-4.30902"></trkpt>
+    <trkpt lat="55.87489" lon="-4.30904"></trkpt>
+    <trkpt lat="55.87487" lon="-4.30909"></trkpt>
+    <trkpt lat="55.87486" lon="-4.30913"></trkpt>
+    <trkpt lat="55.87485" lon="-4.30917"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30922"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30929"></trkpt>
+    <trkpt lat="55.87484" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87482" lon="-4.30942"></trkpt>
+    <trkpt lat="55.8748" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87478" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87477" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87468" lon="-4.30939"></trkpt>
+    <trkpt lat="55.87467" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87466" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87465" lon="-4.30939"></trkpt>
+    <trkpt lat="55.87461" lon="-4.30947"></trkpt>
+    <trkpt lat="55.87458" lon="-4.30943"></trkpt>
+    <trkpt lat="55.87454" lon="-4.30938"></trkpt>
+    <trkpt lat="55.87447" lon="-4.30957"></trkpt>
+    <trkpt lat="55.87445" lon="-4.30961"></trkpt>
+    <trkpt lat="55.87443" lon="-4.30968"></trkpt>
+    <trkpt lat="55.87441" lon="-4.30971"></trkpt>
+    <trkpt lat="55.87439" lon="-4.30973"></trkpt>
+    <trkpt lat="55.87436" lon="-4.30975"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30976"></trkpt>
+    <trkpt lat="55.87434" lon="-4.30977"></trkpt>
+    <trkpt lat="55.8743" lon="-4.30978"></trkpt>
+    <trkpt lat="55.87425" lon="-4.30979"></trkpt>
+    <trkpt lat="55.8742" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87415" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87411" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87407" lon="-4.30978"></trkpt>
+    <trkpt lat="55.87405" lon="-4.30979"></trkpt>
+    <trkpt lat="55.87403" lon="-4.3098"></trkpt>
+    <trkpt lat="55.874" lon="-4.30982"></trkpt>
+    <trkpt lat="55.87398" lon="-4.30985"></trkpt>
+    <trkpt lat="55.87395" lon="-4.30988"></trkpt>
+    <trkpt lat="55.8739" lon="-4.30995"></trkpt>
+    <trkpt lat="55.87384" lon="-4.31002"></trkpt>
+    <trkpt lat="55.87369" lon="-4.31021"></trkpt>
+    <trkpt lat="55.87354" lon="-4.31039"></trkpt>
+    <trkpt lat="55.87352" lon="-4.31038"></trkpt>
+    <trkpt lat="55.87349" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87344" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87341" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87339" lon="-4.31037"></trkpt>
+    <trkpt lat="55.87332" lon="-4.31039"></trkpt>
+    <trkpt lat="55.87326" lon="-4.31041"></trkpt>
+    <trkpt lat="55.87323" lon="-4.31042"></trkpt>
+    <trkpt lat="55.87319" lon="-4.31044"></trkpt>
+    <trkpt lat="55.87316" lon="-4.31046"></trkpt>
+    <trkpt lat="55.87312" lon="-4.31046"></trkpt>
+    <trkpt lat="55.8731" lon="-4.31047"></trkpt>
+    <trkpt lat="55.87308" lon="-4.31046"></trkpt>
+    <trkpt lat="55.87305" lon="-4.31045"></trkpt>
+    <trkpt lat="55.87236" lon="-4.31013"></trkpt>
+    <trkpt lat="55.87144" lon="-4.3097"></trkpt>
+    <trkpt lat="55.87149" lon="-4.30861"></trkpt>
+  </trkseg>
+</trk>
+</gpx>
